@@ -1,0 +1,6 @@
+{
+  "recommendations": [
+    "cucumber.cucumber-official",
+    "ms-playwright.playwright"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "cucumber.features": [
+    "vietcombank-playwright-cucumber/src/test/features/**/*.feature",
+    "vietcombank-selenium-cucumber/src/test/resources/features/**/*.feature"
+  ],
+  "cucumber.glue": [
+    "vietcombank-playwright-cucumber/src/test/steps/*.ts",
+    "vietcombank-playwright-cucumber/src/test/context/*.ts",
+    "vietcombank-playwright-cucumber/src/test/hooks/*.ts",
+    "vietcombank-selenium-cucumber/src/test/java/com/vietcombank/steps/*.java"
+  ],
+  "cucumber.parameterTypes": [],
+
+  "cucumberautocomplete.steps": [
+    "vietcombank-playwright-cucumber/src/test/steps/*.ts",
+    "vietcombank-playwright-cucumber/src/test/hooks/*.ts",
+    "vietcombank-selenium-cucumber/src/test/java/com/vietcombank/steps/*.java"
+  ],
+  "cucumberautocomplete.syncfeatures": "vietcombank-playwright-cucumber/src/test/features/**/*.feature",
+  "cucumberautocomplete.strictGherkinCompletion": false,
+  "cucumberautocomplete.onTypeFormat": true,
+  "cucumberautocomplete.formatConfOverride": {
+    "And": 0,
+    "But": 0
+  }
+}

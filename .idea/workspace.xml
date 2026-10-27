@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="329df0bb-44d0-48b9-9232-a61fb98c3777" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/vietcombank-playwright-cucumber/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vietcombank-playwright-cucumber/.features-gen/features/web/SearchServices.feature.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vietcombank-playwright-cucumber/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vietcombank-playwright-cucumber/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vietcombank-playwright-cucumber/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vietcombank-playwright-cucumber/pages/HomePage.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vietcombank-playwright-cucumber/pages/SearchResultPage.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vietcombank-playwright-cucumber/steps/fixtures.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vietcombank-playwright-cucumber/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vietcombank-playwright-cucumber/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vietcombank-playwright-cucumber/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vietcombank-playwright-cucumber/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vietcombank-playwright-cucumber/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vietcombank-playwright-cucumber/playwright.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vietcombank-playwright-cucumber/playwright.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vietcombank-playwright-cucumber/steps/web/SearchServices.steps.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vietcombank-playwright-cucumber/steps/web/SearchServices.steps.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vietcombank-playwright-cucumber/tests/example.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vietcombank-selenium-cucumber/src/main/java/com/vietcombank/driver/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/vietcombank-selenium-cucumber/src/main/java/com/vietcombank/driver/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vietcombank-selenium-cucumber/src/main/java/com/vietcombank/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/vietcombank-selenium-cucumber/src/main/java/com/vietcombank/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vietcombank-selenium-cucumber/src/main/java/com/vietcombank/pages/SearchResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/vietcombank-selenium-cucumber/src/main/java/com/vietcombank/pages/SearchResultsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vietcombank-selenium-cucumber/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/vietcombank-selenium-cucumber/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vietcombank-selenium-cucumber/src/test/java/com/vietcombank/hooks/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/vietcombank-selenium-cucumber/src/test/java/com/vietcombank/hooks/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vietcombank-selenium-cucumber/src/test/java/com/vietcombank/steps/VietcombankSearchSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/vietcombank-selenium-cucumber/src/test/java/com/vietcombank/steps/VietcombankSearchSteps.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\SETUP\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="3KS2YmRNp7HZDyhrkfpuwMMrHR4" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Batch.run-tests.executor": "Run",
+    "JUnit.CucumberTestRunner.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "feature/pw-sele-compare",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/GIT/tablet-automationtest",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.test.executor": "Run",
+    "project.structure.last.edited": "Facets",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.28850573",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "ts.external.directory.path": "D:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.CucumberTestRunner">
+    <configuration name="run-tests" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="./vietcombank-playwright-cucumber" />
+      <option name="PARENT_ENVS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="run-tests.bat" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CucumberTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vietcombank-selenium-cucumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vietcombank.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vietcombank.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.vietcombank.runners.CucumberTestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CucumberTestRunner" />
+        <item itemvalue="Batch.run-tests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="329df0bb-44d0-48b9-9232-a61fb98c3777" name="Changes" comment="" />
+      <created>1791536699270</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1791536699270</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

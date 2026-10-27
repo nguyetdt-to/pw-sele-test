@@ -1,0 +1,2750 @@
+﻿mvn.cmd : Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+At D:\GIT\tablet-automationtest\.agents\run_mvn.ps1:6 char:15
++     $result = & mvn clean compile test-compile 2>&1
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Picked up JAVA_....encoding=UTF-8 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------< com.vietcombank:vietcombank-selenium-cucumber >------------
+[INFO] Building Vietcombank Selenium Cucumber 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Loaded 24041 auto-discovered prefixes for remote repository central (prefixes-central.txt)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.12.1/maven-compiler-plugin-3.12.1.pom
+Progress (1): 763 B
+Progress (1): 2.3 kB
+Progress (1): 5.0 kB
+Progress (1): 8.0 kB
+Progress (1): 9.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.12.1/maven-compiler-plugin-3.12.1.pom (9.7 kB at 156 kB/s)
+[WARNING] Could not transfer metadata /.meta/prefixes.txt from/to apache.snapshots (https://repository.apache.org/snapshots): Connect to repository.apache.org:443 [repository.apache.org/37.27.138.133] failed: Connection timed out: getsockopt
+[INFO] Loaded 74 auto-discovered prefixes for remote repository apache.snapshots (prefixes-apache.snapshots.txt)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.12.1/maven-compiler-plugin-3.12.1.jar
+Progress (1): 3.8/76 kB
+Progress (1): 8.0/76 kB
+Progress (1): 12/76 kB 
+Progress (1): 16/76 kB
+Progress (1): 21/76 kB
+Progress (1): 24/76 kB
+Progress (1): 28/76 kB
+Progress (1): 33/76 kB
+Progress (1): 37/76 kB
+Progress (1): 41/76 kB
+Progress (1): 45/76 kB
+Progress (1): 49/76 kB
+Progress (1): 54/76 kB
+Progress (1): 58/76 kB
+Progress (1): 62/76 kB
+Progress (1): 66/76 kB
+Progress (1): 71/76 kB
+Progress (1): 75/76 kB
+Progress (1): 76 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.12.1/maven-compiler-plugin-3.12.1.jar (76 kB at 1.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-java/4.18.1/selenium-java-4.18.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/bonigarcia/webdrivermanager/5.8.0/webdrivermanager-5.8.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/cucumber-java/7.15.0/cucumber-java-7.15.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/cucumber-picocontainer/7.15.0/cucumber-picocontainer-7.15.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite/1.10.2/junit-platform-suite-1.10.2.pom
+Progress (1): 1.1 kB
+Progress (1): 4.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-java/4.18.1/selenium-java-4.18.1.pom (4.4 kB at 74 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-api/1.10.2/junit-platform-suite-api-1.10.2.pom
+Progress (1): 962 B
+Progress (1): 3.0 kB
+Progress (2): 3.0 kB | 1.3 kB
+Progress (2): 3.0 kB | 2.9 kB
+                             
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-api/1.10.2/junit-platform-suite-api-1.10.2.pom (3.0 kB at 57 kB/s)
+Progress (1): 5.9 kB
+Progress (1): 10 kB 
+Progress (1): 13 kB
+Progress (1): 17 kB
+Progress (1): 19 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/io/github/bonigarcia/webdrivermanager/5.8.0/webdrivermanager-5.8.0.pom (19 kB at 138 kB/s)
+Progress (1): 1.9 kB
+Progress (1): 3.8 kB
+                    
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-engine/1.10.2/junit-platform-suite-engine-1.10.2.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/cucumber-picocontainer/7.15.0/cucumber-picocontainer-7.15.0.pom (3.8 kB at 26 kB/s)
+Progress (1): 1.6 kB
+Progress (1): 4.3 kB
+Progress (1): 8.4 kB
+Progress (1): 8.4 kB
+Progress (2): 8.4 kB | 957 B
+Progress (2): 8.4 kB | 2.4 kB
+Progress (2): 8.4 kB | 3.1 kB
+                             
+Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/cucumber-java/7.15.0/cucumber-java-7.15.0.pom (8.4 kB at 51 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/2.0.12/slf4j-simple-2.0.12.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite/1.10.2/junit-platform-suite-1.10.2.pom (3.1 kB at 24 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/4.18.1/selenium-api-4.18.1.pom
+Progress (1): 944 B
+Progress (1): 2.5 kB
+Progress (1): 3.2 kB
+Progress (2): 3.2 kB | 967 B
+Progress (2): 3.2 kB | 2.5 kB
+Progress (2): 3.2 kB | 3.4 kB
+                             
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.pom (3.2 kB at 51 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-engine/1.10.2/junit-platform-suite-engine-1.10.2.pom (3.4 kB at 51 kB/s)
+Progress (1): 1.3 kB
+                    
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/4.18.1/selenium-chrome-driver-4.18.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/2.0.12/slf4j-simple-2.0.12.pom (1.3 kB at 22 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v120/4.18.1/selenium-devtools-v120-4.18.1.pom
+Progress (1): 1.1 kB
+Progress (1): 2.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/4.18.1/selenium-api-4.18.1.pom (2.1 kB at 33 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v121/4.18.1/selenium-devtools-v121-4.18.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v122/4.18.1/selenium-devtools-v122-4.18.1.pom
+Progress (1): 1.1 kB
+Progress (2): 1.1 kB | 1.1 kB
+Progress (2): 2.9 kB | 1.1 kB
+Progress (2): 2.9 kB | 3.3 kB
+                             
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/4.18.1/selenium-chrome-driver-4.18.1.pom (3.3 kB at 50 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v120/4.18.1/selenium-devtools-v120-4.18.1.pom (2.9 kB at 47 kB/s)
+Progress (1): 1.1 kB
+Progress (1): 2.9 kB
+Progress (2): 2.9 kB | 1.1 kB
+Progress (2): 2.9 kB | 2.9 kB
+                             
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v85/4.18.1/selenium-devtools-v85-4.18.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-edge-driver/4.18.1/selenium-edge-driver-4.18.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v121/4.18.1/selenium-devtools-v121-4.18.1.pom (2.9 kB at 45 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v122/4.18.1/selenium-devtools-v122-4.18.1.pom (2.9 kB at 49 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/4.18.1/selenium-ie-driver-4.18.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/4.18.1/selenium-firefox-driver-4.18.1.pom
+Progress (1): 1.1 kB
+Progress (1): 2.9 kB
+Progress (2): 2.9 kB | 1.1 kB
+Progress (2): 2.9 kB | 3.1 kB
+                             
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v85/4.18.1/selenium-devtools-v85-4.18.1.pom (2.9 kB at 55 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-edge-driver/4.18.1/selenium-edge-driver-4.18.1.pom (3.1 kB at 53 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/4.18.1/selenium-remote-driver-4.18.1.pom
+Progress (1): 1.1 kB
+Progress (1): 3.4 kB
+Progress (2): 3.4 kB | 1.1 kB
+Progress (2): 3.4 kB | 2.9 kB
+                             
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/4.18.1/selenium-firefox-driver-4.18.1.pom (3.4 kB at 64 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/4.18.1/selenium-safari-driver-4.18.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/4.18.1/selenium-ie-driver-4.18.1.pom (2.9 kB at 47 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-support/4.18.1/selenium-support-4.18.1.pom
+Progress (1): 1.1 kB
+Progress (1): 4.2 kB
+Progress (1): 5.3 kB
+                    
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java/3.3.6/docker-java-3.3.6.pom
+Progress (2): 5.3 kB | 1.1 kB
+Progress (2): 5.3 kB | 2.7 kB
+                             
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/4.18.1/selenium-remote-driver-4.18.1.pom (5.3 kB at 80 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/4.18.1/selenium-safari-driver-4.18.1.pom (2.7 kB at 45 kB/s)
+Progress (1): 1.1 kB
+Progress (1): 3.2 kB
+                    
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java-transport-httpclient5/3.3.6/docker-java-transport-httpclient5-3.3.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-support/4.18.1/selenium-support-4.18.1.pom (3.2 kB at 51 kB/s)
+Progress (1): 1.9 kB
+Progress (1): 4.3 kB
+Progress (1): 5.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java/3.3.6/docker-java-3.3.6.pom (5.7 kB at 80 kB/s)
+Progress (1): 1.5 kB
+Progress (1): 2.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java-transport-httpclient5/3.3.6/docker-java-transport-httpclient5-3.3.6.pom (2.1 kB at 36 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java-parent/3.3.6/docker-java-parent-3.3.6.pom
+Progress (1): 1.1 kB
+Progress (1): 2.4 kB
+Progress (1): 5.2 kB
+Progress (1): 7.3 kB
+Progress (1): 9.9 kB
+Progress (1): 12 kB 
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java-parent/3.3.6/docker-java-parent-3.3.6.pom (12 kB at 213 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-commons/1.10.2/junit-platform-suite-commons-1.10.2.pom
+Progress (1): 966 B
+Progress (1): 2.5 kB
+Progress (1): 2.8 kB
+Progress (2): 2.8 kB | 957 B
+Progress (2): 2.8 kB | 2.5 kB
+Progress (2): 2.8 kB | 3.2 kB
+                             
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.pom (2.8 kB at 50 kB/s)
+Progress (2): 3.2 kB | 968 B
+Progress (2): 3.2 kB | 2.5 kB
+Progress (2): 3.2 kB | 3.4 kB
+                             
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.pom (3.2 kB at 47 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-commons/1.10.2/junit-platform-suite-commons-1.10.2.pom (3.4 kB at 57 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.pom
+Progress (1): 954 B
+Progress (1): 2.5 kB
+Progress (1): 3.2 kB
+Progress (2): 3.2 kB | 963 B
+Progress (2): 3.2 kB | 2.5 kB
+Progress (2): 3.2 kB | 3.2 kB
+Progress (3): 3.2 kB | 3.2 kB | 964 B
+Progress (3): 3.2 kB | 3.2 kB | 2.5 kB
+Progress (3): 3.2 kB | 3.2 kB | 3.0 kB
+                                      
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.pom (3.2 kB at 47 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.pom (3.2 kB at 53 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.pom (3.0 kB at 46 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chromium-driver/4.18.1/selenium-chromium-driver-4.18.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-json/4.18.1/selenium-json-4.18.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-manager/4.18.1/selenium-manager-4.18.1.pom
+Progress (1): 1.1 kB
+Progress (1): 2.7 kB
+Progress (2): 2.7 kB | 1.1 kB
+Progress (2): 2.7 kB | 2.6 kB
+Progress (3): 2.7 kB | 2.6 kB | 1.1 kB
+Progress (3): 2.7 kB | 2.6 kB | 2.3 kB
+                                      
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chromium-driver/4.18.1/selenium-chromium-driver-4.18.1.pom (2.7 kB at 38 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-manager/4.18.1/selenium-manager-4.18.1.pom (2.6 kB at 41 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-json/4.18.1/selenium-json-4.18.1.pom (2.3 kB at 30 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-http/4.18.1/selenium-http-4.18.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.pom
+Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/semconv/opentelemetry-semconv/1.23.1-alpha/opentelemetry-semconv-1.23.1-alpha.pom
+Progress (1): 1.1 kB
+Progress (1): 3.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-http/4.18.1/selenium-http-4.18.1.pom (3.0 kB at 52 kB/s)
+Progress (1): 910 B
+Progress (1): 2.2 kB
+Progress (1): 4.3 kB
+Progress (1): 5.8 kB
+Progress (1): 7.3 kB
+Progress (1): 9.1 kB
+Progress (1): 12 kB 
+Progress (1): 13 kB
+Progress (2): 13 kB | 1.0 kB
+Progress (2): 13 kB | 1.7 kB
+                            
+Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api/1.35.0/opentelemetry-api-1.35.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.pom (13 kB at 213 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/semconv/opentelemetry-semconv/1.23.1-alpha/opentelemetry-semconv-1.23.1-alpha.pom (1.7 kB at 27 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.0.0-jre/guava-parent-33.0.0-jre.pom
+Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-context/1.35.0/opentelemetry-context-1.35.0.pom
+Progress (1): 1.0 kB
+Progress (1): 1.8 kB
+Progress (2): 1.8 kB | 989 B
+Progress (3): 1.8 kB | 989 B | 904 B
+Progress (3): 1.8 kB | 1.6 kB | 904 B
+Progress (3): 1.8 kB | 1.6 kB | 2.1 kB
+Progress (3): 1.8 kB | 1.6 kB | 4.0 kB
+Progress (3): 1.8 kB | 1.6 kB | 6.1 kB
+Progress (3): 1.8 kB | 1.6 kB | 8.0 kB
+Progress (3): 1.8 kB | 1.6 kB | 9.7 kB
+Progress (3): 1.8 kB | 1.6 kB | 12 kB 
+Progress (3): 1.8 kB | 1.6 kB | 13 kB
+                                     
+Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api/1.35.0/opentelemetry-api-1.35.0.pom (1.8 kB at 25 kB/s)
+Progress (2): 1.6 kB | 15 kB
+Progress (2): 1.6 kB | 17 kB
+Progress (2): 1.6 kB | 18 kB
+Progress (2): 1.6 kB | 19 kB
+                            
+Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-context/1.35.0/opentelemetry-context-1.35.0.pom (1.6 kB at 23 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.0.0-jre/guava-parent-33.0.0-jre.pom (19 kB at 252 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-logging/1.35.0/opentelemetry-exporter-logging-1.35.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-common/1.35.0/opentelemetry-sdk-common-1.35.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.35.0/opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.pom
+Progress (1): 995 B
+Progress (1): 2.0 kB
+Progress (2): 2.0 kB | 1.0 kB
+Progress (2): 2.0 kB | 1.8 kB
+                             
+Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-logging/1.35.0/opentelemetry-exporter-logging-1.35.0.pom (2.0 kB at 32 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-common/1.35.0/opentelemetry-sdk-common-1.35.0.pom (1.8 kB at 30 kB/s)
+Progress (1): 977 B
+Progress (1): 1.8 kB
+                    
+Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.35.0/opentelemetry-sdk-extension-autoconfigure-1.35.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.35.0/opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.pom (1.8 kB at 30 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-trace/1.35.0/opentelemetry-sdk-trace-1.35.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk/1.35.0/opentelemetry-sdk-1.35.0.pom
+Progress (1): 983 B
+Progress (1): 2.2 kB
+Progress (2): 2.2 kB | 978 B
+Progress (2): 2.2 kB | 2.2 kB
+Progress (3): 2.2 kB | 2.2 kB | 994 B
+Progress (3): 2.2 kB | 2.2 kB | 2.5 kB
+                                      
+Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-trace/1.35.0/opentelemetry-sdk-trace-1.35.0.pom (2.2 kB at 37 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.35.0/opentelemetry-sdk-extension-autoconfigure-1.35.0.pom (2.2 kB at 33 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk/1.35.0/opentelemetry-sdk-1.35.0.pom (2.5 kB at 40 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.12/byte-buddy-1.14.12.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-os/4.18.1/selenium-os-4.18.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java-core/3.3.6/docker-java-core-3.3.6.pom
+Progress (1): 1.1 kB
+Progress (1): 2.4 kB
+Progress (2): 2.4 kB | 973 B
+Progress (2): 2.4 kB | 2.8 kB
+Progress (2): 2.4 kB | 5.9 kB
+Progress (2): 2.4 kB | 13 kB 
+Progress (2): 2.4 kB | 16 kB
+Progress (2): 2.4 kB | 16 kB
+                            
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-os/4.18.1/selenium-os-4.18.1.pom (2.4 kB at 39 kB/s)
+Progress (2): 16 kB | 1.8 kB
+Progress (2): 16 kB | 2.9 kB
+                            
+Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.12/byte-buddy-1.14.12.pom (16 kB at 244 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java-core/3.3.6/docker-java-core-3.3.6.pom (2.9 kB at 42 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.14.12/byte-buddy-parent-1.14.12.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java-transport/3.3.6/docker-java-transport-3.3.6.pom
+Progress (1): 829 B
+Progress (1): 1.7 kB
+Progress (1): 3.1 kB
+Progress (1): 5.5 kB
+Progress (1): 7.0 kB
+Progress (1): 8.9 kB
+Progress (1): 12 kB 
+Progress (1): 13 kB
+Progress (1): 17 kB
+Progress (1): 22 kB
+Progress (1): 24 kB
+Progress (1): 31 kB
+Progress (1): 46 kB
+Progress (1): 49 kB
+Progress (1): 54 kB
+Progress (1): 58 kB
+Progress (1): 63 kB
+Progress (2): 63 kB | 1.4 kB
+Progress (2): 63 kB | 1.6 kB
+                            
+Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.14.12/byte-buddy-parent-1.14.12.pom (63 kB at 980 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java-transport/3.3.6/docker-java-transport-3.3.6.pom (1.6 kB at 28 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.10.2/junit-platform-launcher-1.10.2.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.41.0/checker-qual-3.41.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.23.0/error_prone_annotations-2.23.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api-events/1.35.0-alpha/opentelemetry-api-events-1.35.0-alpha.pom
+Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-extension-incubator/1.35.0-alpha/opentelemetry-extension-incubator-1.35.0-alpha.pom
+Progress (1): 967 B
+Progress (1): 2.5 kB
+Progress (1): 3.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.10.2/junit-platform-launcher-1.10.2.pom (3.0 kB at 55 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-metrics/1.35.0/opentelemetry-sdk-metrics-1.35.0.pom
+Progress (1): 952 B
+Progress (1): 2.1 kB
+Progress (2): 2.1 kB | 989 B
+Progress (2): 2.1 kB | 1.8 kB
+Progress (3): 2.1 kB | 1.8 kB | 840 B
+Progress (3): 2.1 kB | 1.8 kB | 1.8 kB
+Progress (4): 2.1 kB | 1.8 kB | 1.8 kB | 990 B
+Progress (4): 2.1 kB | 1.8 kB | 1.8 kB | 1.8 kB
+                                               
+Downloaded from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.41.0/checker-qual-3.41.0.pom (2.1 kB at 31 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api-events/1.35.0-alpha/opentelemetry-api-events-1.35.0-alpha.pom (1.8 kB at 30 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-extension-incubator/1.35.0-alpha/opentelemetry-extension-incubator-1.35.0-alpha.pom (1.8 kB at 33 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.23.0/error_prone_annotations-2.23.0.pom (1.8 kB at 30 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-logs/1.35.0/opentelemetry-sdk-logs-1.35.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java-api/3.3.6/docker-java-api-3.3.6.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.23.0/error_prone_parent-2.23.0.pom
+Progress (1): 989 B
+Progress (1): 2.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-metrics/1.35.0/opentelemetry-sdk-metrics-1.35.0.pom (2.2 kB at 37 kB/s)
+Progress (1): 982 B
+Progress (1): 2.4 kB
+Progress (2): 2.4 kB | 1.4 kB
+Progress (2): 2.4 kB | 2.4 kB
+Progress (3): 2.4 kB | 2.4 kB | 820 B
+Progress (3): 2.4 kB | 2.4 kB | 1.8 kB
+Progress (3): 2.4 kB | 2.4 kB | 3.2 kB
+Progress (3): 2.4 kB | 2.4 kB | 5.1 kB
+Progress (3): 2.4 kB | 2.4 kB | 8.8 kB
+Progress (3): 2.4 kB | 2.4 kB | 12 kB 
+Progress (3): 2.4 kB | 2.4 kB | 13 kB
+                                     
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java-api/3.3.6/docker-java-api-3.3.6.pom (2.4 kB at 45 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-logs/1.35.0/opentelemetry-sdk-logs-1.35.0.pom (2.4 kB at 42 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.23.0/error_prone_parent-2.23.0.pom (13 kB at 221 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/messages/maven-metadata.xml
+Progress (1): 3.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/messages/maven-metadata.xml (3.6 kB at 69 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-java/4.18.1/selenium-java-4.18.1.jar
+Progress (1): 545 B
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-java/4.18.1/selenium-java-4.18.1.jar (545 B at 9.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/bonigarcia/webdrivermanager/5.8.0/webdrivermanager-5.8.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/cucumber-java/7.15.0/cucumber-java-7.15.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/cucumber-picocontainer/7.15.0/cucumber-picocontainer-7.15.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite/1.10.2/junit-platform-suite-1.10.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-api/1.10.2/junit-platform-suite-api-1.10.2.jar
+Progress (1): 0.9/898 kB
+Progress (1): 2.3/898 kB
+Progress (1): 3.6/898 kB
+Progress (1): 5.0/898 kB
+Progress (1): 6.4/898 kB
+Progress (1): 7.7/898 kB
+Progress (1): 9.1/898 kB
+Progress (1): 10/898 kB 
+Progress (1): 12/898 kB
+Progress (1): 13/898 kB
+Progress (1): 15/898 kB
+Progress (1): 16/898 kB
+Progress (1): 17/898 kB
+Progress (1): 19/898 kB
+Progress (2): 19/898 kB | 3.2/739 kB
+Progress (2): 20/898 kB | 3.2/739 kB
+Progress (2): 20/898 kB | 20/739 kB 
+Progress (2): 21/898 kB | 20/739 kB
+Progress (2): 23/898 kB | 20/739 kB
+Progress (2): 24/898 kB | 20/739 kB
+Progress (2): 26/898 kB | 20/739 kB
+Progress (2): 27/898 kB | 20/739 kB
+Progress (2): 31/898 kB | 20/739 kB
+Progress (2): 35/898 kB | 20/739 kB
+Progress (2): 40/898 kB | 20/739 kB
+Progress (2): 40/898 kB | 36/739 kB
+Progress (2): 44/898 kB | 36/739 kB
+Progress (2): 48/898 kB | 36/739 kB
+Progress (2): 52/898 kB | 36/739 kB
+Progress (2): 56/898 kB | 36/739 kB
+Progress (2): 57/898 kB | 36/739 kB
+Progress (2): 57/898 kB | 52/739 kB
+Progress (3): 57/898 kB | 52/739 kB | 0.9/6.4 kB
+Progress (4): 57/898 kB | 52/739 kB | 0.9/6.4 kB | 3.2/5.3 kB
+Progress (4): 57/898 kB | 52/739 kB | 2.3/6.4 kB | 3.2/5.3 kB
+Progress (4): 57/898 kB | 52/739 kB | 2.3/6.4 kB | 5.3 kB    
+Progress (4): 57/898 kB | 52/739 kB | 6.4 kB | 5.3 kB    
+Progress (4): 61/898 kB | 52/739 kB | 6.4 kB | 5.3 kB
+Progress (4): 61/898 kB | 69/739 kB | 6.4 kB | 5.3 kB
+Progress (4): 65/898 kB | 69/739 kB | 6.4 kB | 5.3 kB
+Progress (4): 65/898 kB | 85/739 kB | 6.4 kB | 5.3 kB
+Progress (4): 65/898 kB | 98/739 kB | 6.4 kB | 5.3 kB
+Progress (5): 65/898 kB | 98/739 kB | 6.4 kB | 5.3 kB | 3.8/23 kB
+Progress (5): 65/898 kB | 115/739 kB | 6.4 kB | 5.3 kB | 3.8/23 kB
+Progress (5): 65/898 kB | 115/739 kB | 6.4 kB | 5.3 kB | 8.0/23 kB
+Progress (5): 65/898 kB | 115/739 kB | 6.4 kB | 5.3 kB | 12/23 kB 
+Progress (5): 70/898 kB | 115/739 kB | 6.4 kB | 5.3 kB | 12/23 kB
+Progress (5): 70/898 kB | 115/739 kB | 6.4 kB | 5.3 kB | 16/23 kB
+Progress (5): 70/898 kB | 131/739 kB | 6.4 kB | 5.3 kB | 16/23 kB
+Progress (5): 74/898 kB | 131/739 kB | 6.4 kB | 5.3 kB | 16/23 kB
+Progress (5): 74/898 kB | 131/739 kB | 6.4 kB | 5.3 kB | 21/23 kB
+Progress (5): 74/898 kB | 131/739 kB | 6.4 kB | 5.3 kB | 23 kB   
+Progress (5): 78/898 kB | 131/739 kB | 6.4 kB | 5.3 kB | 23 kB
+                                                              
+Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/cucumber-picocontainer/7.15.0/cucumber-picocontainer-7.15.0.jar (5.3 kB at 70 kB/s)
+Progress (4): 82/898 kB | 131/739 kB | 6.4 kB | 23 kB
+                                                     
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-engine/1.10.2/junit-platform-suite-engine-1.10.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite/1.10.2/junit-platform-suite-1.10.2.jar (6.4 kB at 82 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar
+Progress (3): 86/898 kB | 131/739 kB | 23 kB
+                                            
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-api/1.10.2/junit-platform-suite-api-1.10.2.jar (23 kB at 266 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/2.0.12/slf4j-simple-2.0.12.jar
+Progress (2): 86/898 kB | 147/739 kB
+Progress (2): 91/898 kB | 147/739 kB
+Progress (2): 95/898 kB | 147/739 kB
+Progress (2): 99/898 kB | 147/739 kB
+Progress (2): 99/898 kB | 164/739 kB
+Progress (2): 103/898 kB | 164/739 kB
+Progress (2): 108/898 kB | 164/739 kB
+Progress (2): 112/898 kB | 164/739 kB
+Progress (2): 116/898 kB | 164/739 kB
+Progress (2): 116/898 kB | 180/739 kB
+Progress (2): 120/898 kB | 180/739 kB
+Progress (2): 125/898 kB | 180/739 kB
+Progress (2): 129/898 kB | 180/739 kB
+Progress (2): 131/898 kB | 180/739 kB
+Progress (2): 131/898 kB | 197/739 kB
+Progress (2): 135/898 kB | 197/739 kB
+Progress (2): 140/898 kB | 197/739 kB
+Progress (2): 144/898 kB | 197/739 kB
+Progress (2): 148/898 kB | 197/739 kB
+Progress (2): 148/898 kB | 213/739 kB
+Progress (2): 148/898 kB | 229/739 kB
+Progress (2): 152/898 kB | 229/739 kB
+Progress (2): 156/898 kB | 229/739 kB
+Progress (2): 161/898 kB | 229/739 kB
+Progress (2): 165/898 kB | 229/739 kB
+Progress (2): 165/898 kB | 246/739 kB
+Progress (2): 169/898 kB | 246/739 kB
+Progress (2): 173/898 kB | 246/739 kB
+Progress (2): 178/898 kB | 246/739 kB
+Progress (2): 180/898 kB | 246/739 kB
+Progress (2): 180/898 kB | 262/739 kB
+Progress (2): 180/898 kB | 279/739 kB
+Progress (2): 182/898 kB | 279/739 kB
+Progress (2): 182/898 kB | 295/739 kB
+Progress (2): 186/898 kB | 295/739 kB
+Progress (2): 186/898 kB | 311/739 kB
+Progress (2): 190/898 kB | 311/739 kB
+Progress (2): 190/898 kB | 328/739 kB
+Progress (2): 190/898 kB | 344/739 kB
+Progress (2): 190/898 kB | 360/739 kB
+Progress (2): 190/898 kB | 377/739 kB
+Progress (2): 207/898 kB | 377/739 kB
+Progress (3): 207/898 kB | 377/739 kB | 3.8/6.4 kB
+Progress (3): 207/898 kB | 377/739 kB | 6.4 kB    
+Progress (4): 207/898 kB | 377/739 kB | 6.4 kB | 3.8/24 kB
+Progress (4): 207/898 kB | 377/739 kB | 6.4 kB | 4.1/24 kB
+Progress (4): 207/898 kB | 377/739 kB | 6.4 kB | 8.3/24 kB
+Progress (4): 207/898 kB | 377/739 kB | 6.4 kB | 13/24 kB 
+Progress (4): 207/898 kB | 377/739 kB | 6.4 kB | 17/24 kB
+Progress (4): 207/898 kB | 377/739 kB | 6.4 kB | 21/24 kB
+Progress (4): 207/898 kB | 377/739 kB | 6.4 kB | 24 kB   
+Progress (4): 207/898 kB | 393/739 kB | 6.4 kB | 24 kB
+                                                      
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar (6.4 kB at 47 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/4.18.1/selenium-api-4.18.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-engine/1.10.2/junit-platform-suite-engine-1.10.2.jar (24 kB at 174 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/4.18.1/selenium-chrome-driver-4.18.1.jar
+Progress (2): 207/898 kB | 410/739 kB
+Progress (2): 223/898 kB | 410/739 kB
+Progress (2): 223/898 kB | 426/739 kB
+Progress (2): 239/898 kB | 426/739 kB
+Progress (2): 256/898 kB | 426/739 kB
+Progress (2): 256/898 kB | 442/739 kB
+Progress (2): 256/898 kB | 459/739 kB
+Progress (2): 256/898 kB | 475/739 kB
+Progress (3): 256/898 kB | 475/739 kB | 3.8/16 kB
+Progress (3): 256/898 kB | 475/739 kB | 8.0/16 kB
+Progress (3): 256/898 kB | 492/739 kB | 8.0/16 kB
+Progress (3): 272/898 kB | 492/739 kB | 8.0/16 kB
+Progress (3): 272/898 kB | 508/739 kB | 8.0/16 kB
+Progress (3): 272/898 kB | 508/739 kB | 12/16 kB 
+Progress (3): 272/898 kB | 524/739 kB | 12/16 kB
+Progress (3): 272/898 kB | 524/739 kB | 16 kB   
+Progress (3): 289/898 kB | 524/739 kB | 16 kB
+Progress (3): 305/898 kB | 524/739 kB | 16 kB
+Progress (3): 305/898 kB | 541/739 kB | 16 kB
+                                             
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/2.0.12/slf4j-simple-2.0.12.jar (16 kB at 92 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v120/4.18.1/selenium-devtools-v120-4.18.1.jar
+Progress (2): 305/898 kB | 557/739 kB
+Progress (2): 311/898 kB | 557/739 kB
+Progress (2): 328/898 kB | 557/739 kB
+Progress (2): 328/898 kB | 573/739 kB
+Progress (2): 328/898 kB | 590/739 kB
+Progress (2): 328/898 kB | 606/739 kB
+Progress (2): 344/898 kB | 606/739 kB
+Progress (2): 344/898 kB | 623/739 kB
+Progress (2): 360/898 kB | 623/739 kB
+Progress (2): 360/898 kB | 639/739 kB
+Progress (2): 377/898 kB | 639/739 kB
+Progress (2): 393/898 kB | 639/739 kB
+Progress (2): 410/898 kB | 639/739 kB
+Progress (2): 426/898 kB | 639/739 kB
+Progress (2): 426/898 kB | 655/739 kB
+Progress (2): 442/898 kB | 655/739 kB
+Progress (2): 459/898 kB | 655/739 kB
+Progress (2): 459/898 kB | 672/739 kB
+Progress (2): 459/898 kB | 688/739 kB
+Progress (2): 475/898 kB | 688/739 kB
+Progress (2): 475/898 kB | 705/739 kB
+Progress (2): 475/898 kB | 721/739 kB
+Progress (2): 492/898 kB | 721/739 kB
+Progress (2): 492/898 kB | 737/739 kB
+Progress (2): 492/898 kB | 739 kB    
+Progress (3): 492/898 kB | 739 kB | 3.8/231 kB
+Progress (4): 492/898 kB | 739 kB | 3.8/231 kB | 3.8/15 kB
+Progress (4): 492/898 kB | 739 kB | 7.7/231 kB | 3.8/15 kB
+Progress (4): 492/898 kB | 739 kB | 7.7/231 kB | 8.0/15 kB
+Progress (4): 492/898 kB | 739 kB | 7.7/231 kB | 12/15 kB 
+Progress (4): 492/898 kB | 739 kB | 12/231 kB | 12/15 kB 
+Progress (4): 492/898 kB | 739 kB | 12/231 kB | 15 kB   
+Progress (4): 492/898 kB | 739 kB | 16/231 kB | 15 kB
+Progress (4): 492/898 kB | 739 kB | 20/231 kB | 15 kB
+Progress (4): 492/898 kB | 739 kB | 25/231 kB | 15 kB
+Progress (4): 508/898 kB | 739 kB | 25/231 kB | 15 kB
+Progress (4): 508/898 kB | 739 kB | 29/231 kB | 15 kB
+Progress (4): 508/898 kB | 739 kB | 33/231 kB | 15 kB
+Progress (4): 508/898 kB | 739 kB | 37/231 kB | 15 kB
+Progress (4): 508/898 kB | 739 kB | 42/231 kB | 15 kB
+Progress (4): 508/898 kB | 739 kB | 46/231 kB | 15 kB
+Progress (4): 508/898 kB | 739 kB | 50/231 kB | 15 kB
+Progress (4): 508/898 kB | 739 kB | 54/231 kB | 15 kB
+Progress (4): 508/898 kB | 739 kB | 57/231 kB | 15 kB
+Progress (4): 508/898 kB | 739 kB | 61/231 kB | 15 kB
+Progress (4): 524/898 kB | 739 kB | 61/231 kB | 15 kB
+                                                     
+Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/cucumber-java/7.15.0/cucumber-java-7.15.0.jar (739 kB at 3.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v121/4.18.1/selenium-devtools-v121-4.18.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/4.18.1/selenium-chrome-driver-4.18.1.jar (15 kB at 64 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v122/4.18.1/selenium-devtools-v122-4.18.1.jar
+Progress (2): 541/898 kB | 61/231 kB
+Progress (2): 557/898 kB | 61/231 kB
+Progress (2): 573/898 kB | 61/231 kB
+Progress (2): 590/898 kB | 61/231 kB
+Progress (2): 606/898 kB | 61/231 kB
+Progress (2): 623/898 kB | 61/231 kB
+Progress (2): 639/898 kB | 61/231 kB
+Progress (2): 655/898 kB | 61/231 kB
+Progress (3): 655/898 kB | 61/231 kB | 0/1.4 MB
+Progress (3): 672/898 kB | 61/231 kB | 0/1.4 MB
+Progress (3): 672/898 kB | 61/231 kB | 0/1.4 MB
+Progress (3): 672/898 kB | 61/231 kB | 0/1.4 MB
+Progress (3): 688/898 kB | 61/231 kB | 0/1.4 MB
+Progress (3): 688/898 kB | 61/231 kB | 0/1.4 MB
+Progress (3): 688/898 kB | 61/231 kB | 0/1.4 MB
+Progress (3): 705/898 kB | 61/231 kB | 0/1.4 MB
+Progress (3): 705/898 kB | 61/231 kB | 0/1.4 MB
+Progress (3): 705/898 kB | 61/231 kB | 0/1.4 MB
+Progress (3): 721/898 kB | 61/231 kB | 0/1.4 MB
+Progress (3): 721/898 kB | 61/231 kB | 0/1.4 MB
+Progress (3): 737/898 kB | 61/231 kB | 0/1.4 MB
+Progress (3): 737/898 kB | 61/231 kB | 0/1.4 MB
+Progress (3): 737/898 kB | 61/231 kB | 0/1.4 MB
+Progress (3): 737/898 kB | 61/231 kB | 0/1.4 MB
+Progress (3): 754/898 kB | 61/231 kB | 0/1.4 MB
+Progress (3): 754/898 kB | 61/231 kB | 0/1.4 MB
+Progress (3): 754/898 kB | 61/231 kB | 0.1/1.4 MB
+Progress (3): 754/898 kB | 61/231 kB | 0.1/1.4 MB
+Progress (3): 754/898 kB | 61/231 kB | 0.1/1.4 MB
+Progress (3): 754/898 kB | 61/231 kB | 0.1/1.4 MB
+Progress (3): 754/898 kB | 65/231 kB | 0.1/1.4 MB
+Progress (3): 770/898 kB | 65/231 kB | 0.1/1.4 MB
+Progress (3): 786/898 kB | 65/231 kB | 0.1/1.4 MB
+Progress (3): 803/898 kB | 65/231 kB | 0.1/1.4 MB
+Progress (3): 819/898 kB | 65/231 kB | 0.1/1.4 MB
+Progress (3): 819/898 kB | 70/231 kB | 0.1/1.4 MB
+Progress (3): 819/898 kB | 74/231 kB | 0.1/1.4 MB
+Progress (3): 819/898 kB | 78/231 kB | 0.1/1.4 MB
+Progress (3): 819/898 kB | 82/231 kB | 0.1/1.4 MB
+Progress (3): 819/898 kB | 86/231 kB | 0.1/1.4 MB
+Progress (3): 819/898 kB | 91/231 kB | 0.1/1.4 MB
+Progress (3): 836/898 kB | 91/231 kB | 0.1/1.4 MB
+Progress (3): 836/898 kB | 95/231 kB | 0.1/1.4 MB
+Progress (3): 836/898 kB | 99/231 kB | 0.1/1.4 MB
+Progress (3): 836/898 kB | 103/231 kB | 0.1/1.4 MB
+Progress (3): 852/898 kB | 103/231 kB | 0.1/1.4 MB
+Progress (3): 852/898 kB | 108/231 kB | 0.1/1.4 MB
+Progress (3): 868/898 kB | 108/231 kB | 0.1/1.4 MB
+Progress (3): 885/898 kB | 108/231 kB | 0.1/1.4 MB
+Progress (3): 898 kB | 108/231 kB | 0.1/1.4 MB    
+Progress (3): 898 kB | 108/231 kB | 0.1/1.4 MB
+Progress (3): 898 kB | 124/231 kB | 0.1/1.4 MB
+Progress (4): 898 kB | 124/231 kB | 0.1/1.4 MB | 0/1.5 MB
+Progress (4): 898 kB | 124/231 kB | 0.1/1.4 MB | 0/1.5 MB
+Progress (4): 898 kB | 124/231 kB | 0.1/1.4 MB | 0/1.5 MB
+Progress (4): 898 kB | 124/231 kB | 0.1/1.4 MB | 0/1.5 MB
+Progress (4): 898 kB | 124/231 kB | 0.1/1.4 MB | 0/1.5 MB
+Progress (4): 898 kB | 124/231 kB | 0.1/1.4 MB | 0.1/1.5 MB
+                                                           
+Downloaded from central: https://repo.maven.apache.org/maven2/io/github/bonigarcia/webdrivermanager/5.8.0/webdrivermanager-5.8.0.jar (898 kB at 2.9 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v85/4.18.1/selenium-devtools-v85-4.18.1.jar
+Progress (3): 124/231 kB | 0.1/1.4 MB | 0.1/1.5 MB
+Progress (3): 124/231 kB | 0.1/1.4 MB | 0.1/1.5 MB
+Progress (3): 124/231 kB | 0.1/1.4 MB | 0.1/1.5 MB
+Progress (3): 124/231 kB | 0.1/1.4 MB | 0.1/1.5 MB
+Progress (3): 124/231 kB | 0.1/1.4 MB | 0.1/1.5 MB
+Progress (3): 124/231 kB | 0.1/1.4 MB | 0.1/1.5 MB
+Progress (3): 124/231 kB | 0.1/1.4 MB | 0.1/1.5 MB
+Progress (3): 124/231 kB | 0.1/1.4 MB | 0.1/1.5 MB
+Progress (3): 124/231 kB | 0.1/1.4 MB | 0.1/1.5 MB
+Progress (3): 124/231 kB | 0.1/1.4 MB | 0.1/1.5 MB
+Progress (3): 124/231 kB | 0.1/1.4 MB | 0.2/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.2/1.5 MB | 0/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.2/1.5 MB | 0/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.2/1.5 MB | 0/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.2/1.5 MB | 0/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.2/1.5 MB | 0/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.2/1.5 MB | 0/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.2/1.5 MB | 0/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.2/1.5 MB | 0/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.2/1.5 MB | 0/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.2/1.5 MB | 0/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.2/1.5 MB | 0/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.2/1.5 MB | 0/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.2/1.5 MB | 0/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.2/1.5 MB | 0/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.2/1.5 MB | 0/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.2/1.5 MB | 0/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.2/1.5 MB | 0/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.2/1.5 MB | 0.1/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.3/1.5 MB | 0.1/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.3/1.5 MB | 0.1/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.3/1.5 MB | 0.1/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.3/1.5 MB | 0.1/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.3/1.5 MB | 0.1/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.3/1.5 MB | 0.1/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.3/1.5 MB | 0.1/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.3/1.5 MB | 0.1/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.4/1.5 MB | 0.1/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.4/1.5 MB | 0.1/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.4/1.5 MB | 0.1/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.4/1.5 MB | 0.1/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.4/1.5 MB | 0.1/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.4/1.5 MB | 0.1/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.5/1.5 MB | 0.1/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.5/1.5 MB | 0.1/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.5/1.5 MB | 0.1/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.5/1.5 MB | 0.1/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.5/1.5 MB | 0.1/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.5/1.5 MB | 0.1/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.5/1.5 MB | 0.1/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.5/1.5 MB | 0.1/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.5/1.5 MB | 0.1/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.5/1.5 MB | 0.1/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.5/1.5 MB | 0.1/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.5/1.5 MB | 0.1/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.5/1.5 MB | 0.1/1.5 MB
+Progress (4): 124/231 kB | 0.1/1.4 MB | 0.5/1.5 MB | 0.1/1.5 MB
+Progress (4): 140/231 kB | 0.1/1.4 MB | 0.5/1.5 MB | 0.1/1.5 MB
+Progress (4): 140/231 kB | 0.1/1.4 MB | 0.5/1.5 MB | 0.1/1.5 MB
+Progress (4): 140/231 kB | 0.1/1.4 MB | 0.5/1.5 MB | 0.1/1.5 MB
+Progress (4): 157/231 kB | 0.1/1.4 MB | 0.5/1.5 MB | 0.1/1.5 MB
+Progress (4): 157/231 kB | 0.1/1.4 MB | 0.6/1.5 MB | 0.1/1.5 MB
+Progress (4): 157/231 kB | 0.1/1.4 MB | 0.6/1.5 MB | 0.1/1.5 MB
+Progress (4): 173/231 kB | 0.1/1.4 MB | 0.6/1.5 MB | 0.1/1.5 MB
+Progress (4): 173/231 kB | 0.1/1.4 MB | 0.6/1.5 MB | 0.1/1.5 MB
+Progress (4): 188/231 kB | 0.1/1.4 MB | 0.6/1.5 MB | 0.1/1.5 MB
+Progress (4): 188/231 kB | 0.2/1.4 MB | 0.6/1.5 MB | 0.1/1.5 MB
+Progress (4): 204/231 kB | 0.2/1.4 MB | 0.6/1.5 MB | 0.1/1.5 MB
+Progress (4): 204/231 kB | 0.2/1.4 MB | 0.6/1.5 MB | 0.1/1.5 MB
+Progress (4): 221/231 kB | 0.2/1.4 MB | 0.6/1.5 MB | 0.1/1.5 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.6/1.5 MB | 0.1/1.5 MB | 0/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.6/1.5 MB | 0.1/1.5 MB | 0/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.6/1.5 MB | 0.1/1.5 MB | 0/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.6/1.5 MB | 0.1/1.5 MB | 0/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.6/1.5 MB | 0.1/1.5 MB | 0/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.6/1.5 MB | 0.1/1.5 MB | 0.1/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.6/1.5 MB | 0.1/1.5 MB | 0.1/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.6/1.5 MB | 0.1/1.5 MB | 0.1/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.6/1.5 MB | 0.1/1.5 MB | 0.1/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.6/1.5 MB | 0.1/1.5 MB | 0.1/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.6/1.5 MB | 0.1/1.5 MB | 0.1/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.7/1.5 MB | 0.1/1.5 MB | 0.1/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.7/1.5 MB | 0.1/1.5 MB | 0.1/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.7/1.5 MB | 0.1/1.5 MB | 0.1/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.7/1.5 MB | 0.1/1.5 MB | 0.1/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.7/1.5 MB | 0.1/1.5 MB | 0.1/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.7/1.5 MB | 0.1/1.5 MB | 0.1/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.7/1.5 MB | 0.1/1.5 MB | 0.1/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.7/1.5 MB | 0.1/1.5 MB | 0.2/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.7/1.5 MB | 0.1/1.5 MB | 0.2/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.7/1.5 MB | 0.1/1.5 MB | 0.2/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.7/1.5 MB | 0.1/1.5 MB | 0.2/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.7/1.5 MB | 0.1/1.5 MB | 0.2/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.7/1.5 MB | 0.1/1.5 MB | 0.2/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.7/1.5 MB | 0.1/1.5 MB | 0.2/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.7/1.5 MB | 0.1/1.5 MB | 0.2/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.7/1.5 MB | 0.1/1.5 MB | 0.2/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.7/1.5 MB | 0.1/1.5 MB | 0.2/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.7/1.5 MB | 0.1/1.5 MB | 0.2/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.7/1.5 MB | 0.1/1.5 MB | 0.2/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.7/1.5 MB | 0.1/1.5 MB | 0.3/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.7/1.5 MB | 0.1/1.5 MB | 0.3/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.7/1.5 MB | 0.1/1.5 MB | 0.3/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.7/1.5 MB | 0.1/1.5 MB | 0.3/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.7/1.5 MB | 0.1/1.5 MB | 0.3/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.7/1.5 MB | 0.1/1.5 MB | 0.3/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.7/1.5 MB | 0.1/1.5 MB | 0.3/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.7/1.5 MB | 0.1/1.5 MB | 0.3/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.7/1.5 MB | 0.1/1.5 MB | 0.3/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.7/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.7/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.7/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.7/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.7/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.8/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.8/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.8/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.8/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.8/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.8/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.8/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.8/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.8/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.8/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.8/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.8/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.8/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.9/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.9/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.9/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.9/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.9/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.9/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.9/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.9/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 0.9/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 1.0/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 1.0/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 1.0/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 1.0/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 1.0/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 1.0/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 1.0/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 1.1/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 1.1/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 1.1/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 1.1/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 221/231 kB | 0.2/1.4 MB | 1.1/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 231 kB | 0.2/1.4 MB | 1.1/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB    
+Progress (5): 231 kB | 0.2/1.4 MB | 1.1/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 231 kB | 0.2/1.4 MB | 1.1/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 231 kB | 0.2/1.4 MB | 1.1/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 231 kB | 0.3/1.4 MB | 1.1/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 231 kB | 0.3/1.4 MB | 1.1/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 231 kB | 0.3/1.4 MB | 1.1/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 231 kB | 0.3/1.4 MB | 1.1/1.5 MB | 0.1/1.5 MB | 0.4/1.0 MB
+Progress (5): 231 kB | 0.3/1.4 MB | 1.1/1.5 MB | 0.1/1.5 MB | 0.5/1.0 MB
+Progress (5): 231 kB | 0.3/1.4 MB | 1.1/1.5 MB | 0.1/1.5 MB | 0.5/1.0 MB
+Progress (5): 231 kB | 0.3/1.4 MB | 1.1/1.5 MB | 0.1/1.5 MB | 0.5/1.0 MB
+Progress (5): 231 kB | 0.3/1.4 MB | 1.1/1.5 MB | 0.1/1.5 MB | 0.5/1.0 MB
+Progress (5): 231 kB | 0.3/1.4 MB | 1.2/1.5 MB | 0.1/1.5 MB | 0.5/1.0 MB
+                                                                        
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/4.18.1/selenium-api-4.18.1.jar (231 kB at 470 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-edge-driver/4.18.1/selenium-edge-driver-4.18.1.jar
+Progress (4): 0.3/1.4 MB | 1.2/1.5 MB | 0.1/1.5 MB | 0.5/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.2/1.5 MB | 0.1/1.5 MB | 0.5/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.2/1.5 MB | 0.1/1.5 MB | 0.5/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.2/1.5 MB | 0.1/1.5 MB | 0.5/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.2/1.5 MB | 0.1/1.5 MB | 0.5/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.2/1.5 MB | 0.1/1.5 MB | 0.5/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.2/1.5 MB | 0.1/1.5 MB | 0.5/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.2/1.5 MB | 0.1/1.5 MB | 0.5/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.2/1.5 MB | 0.1/1.5 MB | 0.5/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.2/1.5 MB | 0.1/1.5 MB | 0.5/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.3/1.5 MB | 0.1/1.5 MB | 0.5/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.3/1.5 MB | 0.1/1.5 MB | 0.6/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.3/1.5 MB | 0.1/1.5 MB | 0.6/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.3/1.5 MB | 0.1/1.5 MB | 0.6/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.3/1.5 MB | 0.1/1.5 MB | 0.6/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.3/1.5 MB | 0.1/1.5 MB | 0.6/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.3/1.5 MB | 0.1/1.5 MB | 0.6/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.3/1.5 MB | 0.1/1.5 MB | 0.6/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.3/1.5 MB | 0.1/1.5 MB | 0.6/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.3/1.5 MB | 0.1/1.5 MB | 0.6/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.3/1.5 MB | 0.1/1.5 MB | 0.6/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.3/1.5 MB | 0.1/1.5 MB | 0.7/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.3/1.5 MB | 0.1/1.5 MB | 0.7/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.3/1.5 MB | 0.1/1.5 MB | 0.7/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.3/1.5 MB | 0.1/1.5 MB | 0.7/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.3/1.5 MB | 0.1/1.5 MB | 0.7/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.3/1.5 MB | 0.1/1.5 MB | 0.7/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.3/1.5 MB | 0.1/1.5 MB | 0.7/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.3/1.5 MB | 0.1/1.5 MB | 0.7/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.3/1.5 MB | 0.1/1.5 MB | 0.7/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.4/1.5 MB | 0.1/1.5 MB | 0.7/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.4/1.5 MB | 0.1/1.5 MB | 0.7/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.4/1.5 MB | 0.1/1.5 MB | 0.7/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.4/1.5 MB | 0.1/1.5 MB | 0.7/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.4/1.5 MB | 0.1/1.5 MB | 0.8/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.4/1.5 MB | 0.1/1.5 MB | 0.8/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.4/1.5 MB | 0.1/1.5 MB | 0.8/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.4/1.5 MB | 0.1/1.5 MB | 0.8/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.4/1.5 MB | 0.1/1.5 MB | 0.8/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.4/1.5 MB | 0.1/1.5 MB | 0.8/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.5/1.5 MB | 0.1/1.5 MB | 0.8/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.5/1.5 MB | 0.1/1.5 MB | 0.8/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.5/1.5 MB | 0.1/1.5 MB | 0.8/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.5 MB | 0.1/1.5 MB | 0.8/1.0 MB    
+Progress (4): 0.3/1.4 MB | 1.5 MB | 0.1/1.5 MB | 0.8/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.5 MB | 0.1/1.5 MB | 0.8/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.5 MB | 0.1/1.5 MB | 0.8/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.5 MB | 0.1/1.5 MB | 0.9/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.5 MB | 0.1/1.5 MB | 0.9/1.0 MB
+Progress (4): 0.3/1.4 MB | 1.5 MB | 0.1/1.5 MB | 0.9/1.0 MB
+                                                           
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v122/4.18.1/selenium-devtools-v122-4.18.1.jar (1.5 MB at 2.7 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/4.18.1/selenium-firefox-driver-4.18.1.jar
+Progress (3): 0.3/1.4 MB | 0.1/1.5 MB | 0.9/1.0 MB
+Progress (3): 0.3/1.4 MB | 0.1/1.5 MB | 0.9/1.0 MB
+Progress (3): 0.3/1.4 MB | 0.1/1.5 MB | 0.9/1.0 MB
+Progress (3): 0.4/1.4 MB | 0.1/1.5 MB | 0.9/1.0 MB
+Progress (3): 0.4/1.4 MB | 0.1/1.5 MB | 0.9/1.0 MB
+Progress (3): 0.4/1.4 MB | 0.1/1.5 MB | 0.9/1.0 MB
+Progress (3): 0.4/1.4 MB | 0.1/1.5 MB | 1.0/1.0 MB
+Progress (3): 0.4/1.4 MB | 0.1/1.5 MB | 1.0/1.0 MB
+Progress (3): 0.4/1.4 MB | 0.1/1.5 MB | 1.0/1.0 MB
+Progress (3): 0.4/1.4 MB | 0.1/1.5 MB | 1.0/1.0 MB
+Progress (3): 0.4/1.4 MB | 0.2/1.5 MB | 1.0/1.0 MB
+Progress (3): 0.4/1.4 MB | 0.2/1.5 MB | 1.0/1.0 MB
+Progress (3): 0.4/1.4 MB | 0.2/1.5 MB | 1.0 MB    
+Progress (3): 0.4/1.4 MB | 0.2/1.5 MB | 1.0 MB
+Progress (3): 0.4/1.4 MB | 0.2/1.5 MB | 1.0 MB
+Progress (3): 0.4/1.4 MB | 0.2/1.5 MB | 1.0 MB
+Progress (3): 0.4/1.4 MB | 0.2/1.5 MB | 1.0 MB
+Progress (3): 0.4/1.4 MB | 0.2/1.5 MB | 1.0 MB
+Progress (3): 0.4/1.4 MB | 0.2/1.5 MB | 1.0 MB
+Progress (4): 0.4/1.4 MB | 0.2/1.5 MB | 1.0 MB | 7.7/16 kB
+Progress (4): 0.4/1.4 MB | 0.2/1.5 MB | 1.0 MB | 16 kB    
+Progress (4): 0.4/1.4 MB | 0.3/1.5 MB | 1.0 MB | 16 kB
+                                                      
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v85/4.18.1/selenium-devtools-v85-4.18.1.jar (1.0 MB at 1.7 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/4.18.1/selenium-ie-driver-4.18.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-edge-driver/4.18.1/selenium-edge-driver-4.18.1.jar (16 kB at 27 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/4.18.1/selenium-remote-driver-4.18.1.jar
+Progress (2): 0.4/1.4 MB | 0.3/1.5 MB
+Progress (2): 0.4/1.4 MB | 0.3/1.5 MB
+Progress (2): 0.4/1.4 MB | 0.3/1.5 MB
+Progress (2): 0.4/1.4 MB | 0.3/1.5 MB
+Progress (3): 0.4/1.4 MB | 0.3/1.5 MB | 7.7/83 kB
+Progress (3): 0.4/1.4 MB | 0.3/1.5 MB | 16/83 kB 
+Progress (3): 0.4/1.4 MB | 0.3/1.5 MB | 32/83 kB
+Progress (3): 0.4/1.4 MB | 0.3/1.5 MB | 32/83 kB
+Progress (3): 0.4/1.4 MB | 0.3/1.5 MB | 32/83 kB
+Progress (3): 0.4/1.4 MB | 0.4/1.5 MB | 32/83 kB
+Progress (3): 0.4/1.4 MB | 0.4/1.5 MB | 49/83 kB
+Progress (3): 0.4/1.4 MB | 0.4/1.5 MB | 57/83 kB
+Progress (3): 0.4/1.4 MB | 0.4/1.5 MB | 57/83 kB
+Progress (3): 0.4/1.4 MB | 0.4/1.5 MB | 73/83 kB
+Progress (3): 0.4/1.4 MB | 0.4/1.5 MB | 73/83 kB
+Progress (3): 0.4/1.4 MB | 0.4/1.5 MB | 83 kB   
+Progress (3): 0.4/1.4 MB | 0.4/1.5 MB | 83 kB
+                                             
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/4.18.1/selenium-firefox-driver-4.18.1.jar (83 kB at 134 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/4.18.1/selenium-safari-driver-4.18.1.jar
+Progress (3): 0.4/1.4 MB | 0.4/1.5 MB | 7.7/500 kB
+Progress (3): 0.4/1.4 MB | 0.4/1.5 MB | 16/500 kB 
+Progress (3): 0.4/1.4 MB | 0.4/1.5 MB | 32/500 kB
+Progress (3): 0.4/1.4 MB | 0.4/1.5 MB | 49/500 kB
+Progress (3): 0.4/1.4 MB | 0.4/1.5 MB | 61/500 kB
+Progress (3): 0.4/1.4 MB | 0.4/1.5 MB | 78/500 kB
+Progress (3): 0.4/1.4 MB | 0.4/1.5 MB | 78/500 kB
+Progress (3): 0.4/1.4 MB | 0.4/1.5 MB | 94/500 kB
+Progress (3): 0.4/1.4 MB | 0.4/1.5 MB | 111/500 kB
+Progress (3): 0.4/1.4 MB | 0.4/1.5 MB | 127/500 kB
+Progress (3): 0.4/1.4 MB | 0.4/1.5 MB | 143/500 kB
+Progress (3): 0.4/1.4 MB | 0.4/1.5 MB | 160/500 kB
+Progress (3): 0.4/1.4 MB | 0.4/1.5 MB | 176/500 kB
+Progress (4): 0.4/1.4 MB | 0.4/1.5 MB | 176/500 kB | 7.7/17 kB
+Progress (4): 0.4/1.4 MB | 0.4/1.5 MB | 176/500 kB | 11/17 kB 
+Progress (4): 0.4/1.4 MB | 0.4/1.5 MB | 176/500 kB | 17 kB   
+Progress (4): 0.4/1.4 MB | 0.4/1.5 MB | 176/500 kB | 17 kB
+Progress (4): 0.4/1.4 MB | 0.4/1.5 MB | 193/500 kB | 17 kB
+Progress (4): 0.4/1.4 MB | 0.4/1.5 MB | 209/500 kB | 17 kB
+Progress (4): 0.4/1.4 MB | 0.4/1.5 MB | 225/500 kB | 17 kB
+Progress (4): 0.4/1.4 MB | 0.4/1.5 MB | 242/500 kB | 17 kB
+Progress (4): 0.4/1.4 MB | 0.4/1.5 MB | 258/500 kB | 17 kB
+Progress (4): 0.4/1.4 MB | 0.4/1.5 MB | 274/500 kB | 17 kB
+Progress (4): 0.4/1.4 MB | 0.4/1.5 MB | 274/500 kB | 17 kB
+Progress (4): 0.4/1.4 MB | 0.4/1.5 MB | 291/500 kB | 17 kB
+Progress (4): 0.4/1.4 MB | 0.4/1.5 MB | 307/500 kB | 17 kB
+Progress (4): 0.4/1.4 MB | 0.4/1.5 MB | 307/500 kB | 17 kB
+                                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/4.18.1/selenium-ie-driver-4.18.1.jar (17 kB at 26 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-support/4.18.1/selenium-support-4.18.1.jar
+Progress (3): 0.4/1.4 MB | 0.4/1.5 MB | 324/500 kB
+Progress (3): 0.4/1.4 MB | 0.5/1.5 MB | 324/500 kB
+Progress (3): 0.4/1.4 MB | 0.5/1.5 MB | 340/500 kB
+Progress (3): 0.4/1.4 MB | 0.5/1.5 MB | 356/500 kB
+Progress (3): 0.4/1.4 MB | 0.5/1.5 MB | 373/500 kB
+Progress (3): 0.4/1.4 MB | 0.5/1.5 MB | 373/500 kB
+Progress (3): 0.4/1.4 MB | 0.5/1.5 MB | 389/500 kB
+Progress (3): 0.4/1.4 MB | 0.5/1.5 MB | 406/500 kB
+Progress (3): 0.4/1.4 MB | 0.5/1.5 MB | 406/500 kB
+Progress (3): 0.4/1.4 MB | 0.5/1.5 MB | 422/500 kB
+Progress (3): 0.4/1.4 MB | 0.5/1.5 MB | 422/500 kB
+Progress (3): 0.5/1.4 MB | 0.5/1.5 MB | 422/500 kB
+Progress (3): 0.5/1.4 MB | 0.5/1.5 MB | 438/500 kB
+Progress (3): 0.5/1.4 MB | 0.5/1.5 MB | 438/500 kB
+Progress (3): 0.5/1.4 MB | 0.5/1.5 MB | 455/500 kB
+Progress (3): 0.5/1.4 MB | 0.5/1.5 MB | 471/500 kB
+Progress (3): 0.5/1.4 MB | 0.5/1.5 MB | 471/500 kB
+Progress (3): 0.5/1.4 MB | 0.5/1.5 MB | 487/500 kB
+Progress (3): 0.5/1.4 MB | 0.6/1.5 MB | 487/500 kB
+Progress (3): 0.5/1.4 MB | 0.6/1.5 MB | 500 kB    
+Progress (3): 0.5/1.4 MB | 0.6/1.5 MB | 500 kB
+Progress (3): 0.5/1.4 MB | 0.6/1.5 MB | 500 kB
+Progress (3): 0.5/1.4 MB | 0.6/1.5 MB | 500 kB
+Progress (3): 0.5/1.4 MB | 0.6/1.5 MB | 500 kB
+Progress (3): 0.5/1.4 MB | 0.6/1.5 MB | 500 kB
+Progress (3): 0.5/1.4 MB | 0.6/1.5 MB | 500 kB
+Progress (3): 0.5/1.4 MB | 0.6/1.5 MB | 500 kB
+Progress (4): 0.5/1.4 MB | 0.6/1.5 MB | 500 kB | 7.7/28 kB
+Progress (4): 0.5/1.4 MB | 0.6/1.5 MB | 500 kB | 16/28 kB 
+Progress (4): 0.5/1.4 MB | 0.6/1.5 MB | 500 kB | 24/28 kB
+                                                         
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/4.18.1/selenium-remote-driver-4.18.1.jar (500 kB at 729 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java/3.3.6/docker-java-3.3.6.jar
+Progress (3): 0.5/1.4 MB | 0.6/1.5 MB | 28 kB
+Progress (3): 0.5/1.4 MB | 0.6/1.5 MB | 28 kB
+Progress (3): 0.5/1.4 MB | 0.7/1.5 MB | 28 kB
+Progress (3): 0.5/1.4 MB | 0.7/1.5 MB | 28 kB
+Progress (3): 0.5/1.4 MB | 0.7/1.5 MB | 28 kB
+Progress (3): 0.5/1.4 MB | 0.7/1.5 MB | 28 kB
+Progress (3): 0.5/1.4 MB | 0.7/1.5 MB | 28 kB
+                                             
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/4.18.1/selenium-safari-driver-4.18.1.jar (28 kB at 40 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java-transport-httpclient5/3.3.6/docker-java-transport-httpclient5-3.3.6.jar
+Progress (2): 0.5/1.4 MB | 0.7/1.5 MB
+Progress (2): 0.5/1.4 MB | 0.7/1.5 MB
+Progress (2): 0.5/1.4 MB | 0.8/1.5 MB
+Progress (2): 0.5/1.4 MB | 0.8/1.5 MB
+Progress (2): 0.5/1.4 MB | 0.8/1.5 MB
+Progress (2): 0.5/1.4 MB | 0.8/1.5 MB
+Progress (2): 0.5/1.4 MB | 0.8/1.5 MB
+Progress (2): 0.5/1.4 MB | 0.8/1.5 MB
+Progress (2): 0.5/1.4 MB | 0.8/1.5 MB
+Progress (2): 0.5/1.4 MB | 0.8/1.5 MB
+Progress (2): 0.5/1.4 MB | 0.9/1.5 MB
+Progress (2): 0.5/1.4 MB | 0.9/1.5 MB
+Progress (2): 0.5/1.4 MB | 0.9/1.5 MB
+Progress (2): 0.5/1.4 MB | 0.9/1.5 MB
+Progress (2): 0.5/1.4 MB | 0.9/1.5 MB
+Progress (2): 0.5/1.4 MB | 0.9/1.5 MB
+Progress (2): 0.5/1.4 MB | 1.0/1.5 MB
+Progress (2): 0.5/1.4 MB | 1.0/1.5 MB
+Progress (2): 0.5/1.4 MB | 1.0/1.5 MB
+Progress (2): 0.5/1.4 MB | 1.0/1.5 MB
+Progress (3): 0.5/1.4 MB | 1.0/1.5 MB | 7.7/174 kB
+Progress (3): 0.5/1.4 MB | 1.0/1.5 MB | 16/174 kB 
+Progress (3): 0.5/1.4 MB | 1.0/1.5 MB | 25/174 kB
+Progress (3): 0.5/1.4 MB | 1.0/1.5 MB | 41/174 kB
+Progress (3): 0.5/1.4 MB | 1.0/1.5 MB | 41/174 kB
+Progress (3): 0.5/1.4 MB | 1.0/1.5 MB | 41/174 kB
+Progress (3): 0.5/1.4 MB | 1.0/1.5 MB | 41/174 kB
+Progress (3): 0.5/1.4 MB | 1.0/1.5 MB | 57/174 kB
+Progress (3): 0.6/1.4 MB | 1.0/1.5 MB | 57/174 kB
+Progress (3): 0.6/1.4 MB | 1.1/1.5 MB | 57/174 kB
+Progress (3): 0.6/1.4 MB | 1.1/1.5 MB | 57/174 kB
+Progress (3): 0.6/1.4 MB | 1.1/1.5 MB | 57/174 kB
+Progress (3): 0.6/1.4 MB | 1.1/1.5 MB | 57/174 kB
+Progress (3): 0.6/1.4 MB | 1.1/1.5 MB | 74/174 kB
+Progress (3): 0.6/1.4 MB | 1.1/1.5 MB | 74/174 kB
+Progress (3): 0.6/1.4 MB | 1.1/1.5 MB | 82/174 kB
+Progress (3): 0.6/1.4 MB | 1.1/1.5 MB | 82/174 kB
+Progress (4): 0.6/1.4 MB | 1.1/1.5 MB | 82/174 kB | 4.5 kB
+Progress (4): 0.6/1.4 MB | 1.2/1.5 MB | 82/174 kB | 4.5 kB
+Progress (4): 0.6/1.4 MB | 1.2/1.5 MB | 82/174 kB | 4.5 kB
+Progress (4): 0.6/1.4 MB | 1.2/1.5 MB | 98/174 kB | 4.5 kB
+Progress (4): 0.6/1.4 MB | 1.2/1.5 MB | 98/174 kB | 4.5 kB
+Progress (4): 0.6/1.4 MB | 1.2/1.5 MB | 98/174 kB | 4.5 kB
+                                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java/3.3.6/docker-java-3.3.6.jar (4.5 kB at 6.1 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar
+Progress (3): 0.6/1.4 MB | 1.2/1.5 MB | 98/174 kB
+Progress (3): 0.6/1.4 MB | 1.2/1.5 MB | 98/174 kB
+Progress (3): 0.6/1.4 MB | 1.2/1.5 MB | 115/174 kB
+Progress (4): 0.6/1.4 MB | 1.2/1.5 MB | 115/174 kB | 7.7/18 kB
+Progress (4): 0.6/1.4 MB | 1.2/1.5 MB | 115/174 kB | 16/18 kB 
+Progress (4): 0.6/1.4 MB | 1.2/1.5 MB | 115/174 kB | 18 kB   
+                                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java-transport-httpclient5/3.3.6/docker-java-transport-httpclient5-3.3.6.jar (18 kB at 24 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-commons/1.10.2/junit-platform-suite-commons-1.10.2.jar
+Progress (3): 0.6/1.4 MB | 1.2/1.5 MB | 115/174 kB
+Progress (3): 0.6/1.4 MB | 1.2/1.5 MB | 131/174 kB
+Progress (3): 0.6/1.4 MB | 1.2/1.5 MB | 131/174 kB
+Progress (3): 0.6/1.4 MB | 1.2/1.5 MB | 147/174 kB
+Progress (3): 0.6/1.4 MB | 1.2/1.5 MB | 164/174 kB
+Progress (3): 0.6/1.4 MB | 1.2/1.5 MB | 174 kB    
+Progress (3): 0.6/1.4 MB | 1.2/1.5 MB | 174 kB
+Progress (3): 0.6/1.4 MB | 1.2/1.5 MB | 174 kB
+Progress (3): 0.6/1.4 MB | 1.3/1.5 MB | 174 kB
+Progress (3): 0.6/1.4 MB | 1.3/1.5 MB | 174 kB
+Progress (3): 0.6/1.4 MB | 1.3/1.5 MB | 174 kB
+Progress (3): 0.6/1.4 MB | 1.3/1.5 MB | 174 kB
+Progress (3): 0.6/1.4 MB | 1.3/1.5 MB | 174 kB
+Progress (3): 0.6/1.4 MB | 1.3/1.5 MB | 174 kB
+Progress (3): 0.6/1.4 MB | 1.4/1.5 MB | 174 kB
+Progress (3): 0.6/1.4 MB | 1.4/1.5 MB | 174 kB
+Progress (3): 0.6/1.4 MB | 1.4/1.5 MB | 174 kB
+Progress (3): 0.6/1.4 MB | 1.4/1.5 MB | 174 kB
+Progress (3): 0.6/1.4 MB | 1.4/1.5 MB | 174 kB
+Progress (3): 0.6/1.4 MB | 1.4/1.5 MB | 174 kB
+Progress (3): 0.7/1.4 MB | 1.4/1.5 MB | 174 kB
+Progress (3): 0.7/1.4 MB | 1.4/1.5 MB | 174 kB
+Progress (3): 0.7/1.4 MB | 1.4/1.5 MB | 174 kB
+Progress (3): 0.7/1.4 MB | 1.5 MB | 174 kB    
+Progress (4): 0.7/1.4 MB | 1.5 MB | 174 kB | 7.7/17 kB
+Progress (4): 0.7/1.4 MB | 1.5 MB | 174 kB | 8.2/17 kB
+Progress (5): 0.7/1.4 MB | 1.5 MB | 174 kB | 8.2/17 kB | 7.7/106 kB
+Progress (5): 0.7/1.4 MB | 1.5 MB | 174 kB | 8.2/17 kB | 16/106 kB 
+Progress (5): 0.7/1.4 MB | 1.5 MB | 174 kB | 17 kB | 16/106 kB    
+Progress (5): 0.7/1.4 MB | 1.5 MB | 174 kB | 17 kB | 25/106 kB
+Progress (5): 0.7/1.4 MB | 1.5 MB | 174 kB | 17 kB | 41/106 kB
+Progress (5): 0.7/1.4 MB | 1.5 MB | 174 kB | 17 kB | 57/106 kB
+Progress (5): 0.7/1.4 MB | 1.5 MB | 174 kB | 17 kB | 74/106 kB
+Progress (5): 0.7/1.4 MB | 1.5 MB | 174 kB | 17 kB | 90/106 kB
+                                                              
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-support/4.18.1/selenium-support-4.18.1.jar (174 kB at 213 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar
+Progress (4): 0.7/1.4 MB | 1.5 MB | 17 kB | 106 kB
+Progress (4): 0.7/1.4 MB | 1.5 MB | 17 kB | 106 kB
+                                                  
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-commons/1.10.2/junit-platform-suite-commons-1.10.2.jar (17 kB at 21 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v121/4.18.1/selenium-devtools-v121-4.18.1.jar (1.5 MB at 1.8 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar (106 kB at 128 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chromium-driver/4.18.1/selenium-chromium-driver-4.18.1.jar
+Progress (1): 0.7/1.4 MB
+Progress (1): 0.7/1.4 MB
+Progress (1): 0.7/1.4 MB
+Progress (2): 0.7/1.4 MB | 3.1/211 kB
+Progress (2): 0.7/1.4 MB | 20/211 kB 
+Progress (2): 0.7/1.4 MB | 36/211 kB
+Progress (2): 0.7/1.4 MB | 52/211 kB
+Progress (2): 0.8/1.4 MB | 52/211 kB
+Progress (2): 0.8/1.4 MB | 69/211 kB
+Progress (3): 0.8/1.4 MB | 69/211 kB | 3.2/245 kB
+Progress (4): 0.8/1.4 MB | 69/211 kB | 3.2/245 kB | 7.7/586 kB
+Progress (4): 0.8/1.4 MB | 69/211 kB | 3.2/245 kB | 7.7/586 kB
+Progress (4): 0.8/1.4 MB | 69/211 kB | 20/245 kB | 7.7/586 kB 
+Progress (4): 0.8/1.4 MB | 69/211 kB | 20/245 kB | 24/586 kB 
+Progress (4): 0.8/1.4 MB | 69/211 kB | 36/245 kB | 24/586 kB
+Progress (4): 0.8/1.4 MB | 69/211 kB | 36/245 kB | 24/586 kB
+Progress (4): 0.8/1.4 MB | 69/211 kB | 52/245 kB | 24/586 kB
+Progress (4): 0.8/1.4 MB | 69/211 kB | 52/245 kB | 40/586 kB
+Progress (4): 0.8/1.4 MB | 85/211 kB | 52/245 kB | 40/586 kB
+Progress (4): 0.8/1.4 MB | 85/211 kB | 69/245 kB | 40/586 kB
+Progress (4): 0.8/1.4 MB | 85/211 kB | 69/245 kB | 57/586 kB
+Progress (4): 0.8/1.4 MB | 85/211 kB | 69/245 kB | 73/586 kB
+Progress (4): 0.8/1.4 MB | 85/211 kB | 85/245 kB | 73/586 kB
+Progress (4): 0.8/1.4 MB | 85/211 kB | 85/245 kB | 90/586 kB
+Progress (4): 0.8/1.4 MB | 101/211 kB | 85/245 kB | 90/586 kB
+Progress (4): 0.8/1.4 MB | 101/211 kB | 101/245 kB | 90/586 kB
+Progress (4): 0.8/1.4 MB | 101/211 kB | 118/245 kB | 90/586 kB
+Progress (4): 0.8/1.4 MB | 101/211 kB | 126/245 kB | 90/586 kB
+Progress (4): 0.8/1.4 MB | 101/211 kB | 126/245 kB | 106/586 kB
+Progress (4): 0.8/1.4 MB | 101/211 kB | 142/245 kB | 106/586 kB
+Progress (4): 0.8/1.4 MB | 101/211 kB | 142/245 kB | 122/586 kB
+Progress (4): 0.8/1.4 MB | 101/211 kB | 159/245 kB | 122/586 kB
+Progress (4): 0.8/1.4 MB | 118/211 kB | 159/245 kB | 122/586 kB
+Progress (4): 0.8/1.4 MB | 118/211 kB | 175/245 kB | 122/586 kB
+Progress (4): 0.8/1.4 MB | 118/211 kB | 175/245 kB | 139/586 kB
+Progress (4): 0.8/1.4 MB | 118/211 kB | 192/245 kB | 139/586 kB
+Progress (4): 0.8/1.4 MB | 118/211 kB | 192/245 kB | 155/586 kB
+Progress (4): 0.8/1.4 MB | 126/211 kB | 192/245 kB | 155/586 kB
+Progress (4): 0.8/1.4 MB | 126/211 kB | 208/245 kB | 155/586 kB
+Progress (4): 0.8/1.4 MB | 126/211 kB | 208/245 kB | 172/586 kB
+Progress (4): 0.8/1.4 MB | 126/211 kB | 224/245 kB | 172/586 kB
+Progress (4): 0.8/1.4 MB | 126/211 kB | 224/245 kB | 188/586 kB
+Progress (4): 0.8/1.4 MB | 126/211 kB | 241/245 kB | 188/586 kB
+Progress (4): 0.8/1.4 MB | 126/211 kB | 241/245 kB | 197/586 kB
+Progress (4): 0.8/1.4 MB | 126/211 kB | 245 kB | 197/586 kB    
+Progress (4): 0.8/1.4 MB | 126/211 kB | 245 kB | 213/586 kB
+Progress (4): 0.8/1.4 MB | 126/211 kB | 245 kB | 229/586 kB
+Progress (4): 0.8/1.4 MB | 126/211 kB | 245 kB | 246/586 kB
+                                                           
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar (245 kB at 268 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-json/4.18.1/selenium-json-4.18.1.jar
+Progress (3): 0.8/1.4 MB | 126/211 kB | 262/586 kB
+Progress (3): 0.8/1.4 MB | 126/211 kB | 279/586 kB
+Progress (3): 0.8/1.4 MB | 142/211 kB | 279/586 kB
+Progress (3): 0.8/1.4 MB | 142/211 kB | 295/586 kB
+Progress (3): 0.8/1.4 MB | 159/211 kB | 295/586 kB
+Progress (4): 0.8/1.4 MB | 159/211 kB | 295/586 kB | 7.7/37 kB
+Progress (4): 0.8/1.4 MB | 159/211 kB | 295/586 kB | 16/37 kB 
+Progress (4): 0.8/1.4 MB | 159/211 kB | 311/586 kB | 16/37 kB
+Progress (4): 0.8/1.4 MB | 159/211 kB | 328/586 kB | 16/37 kB
+Progress (4): 0.8/1.4 MB | 159/211 kB | 328/586 kB | 16/37 kB
+Progress (4): 0.8/1.4 MB | 159/211 kB | 328/586 kB | 32/37 kB
+Progress (4): 0.8/1.4 MB | 159/211 kB | 328/586 kB | 37 kB   
+Progress (4): 0.8/1.4 MB | 159/211 kB | 344/586 kB | 37 kB
+Progress (4): 0.8/1.4 MB | 159/211 kB | 360/586 kB | 37 kB
+Progress (4): 0.8/1.4 MB | 175/211 kB | 360/586 kB | 37 kB
+Progress (4): 0.8/1.4 MB | 175/211 kB | 377/586 kB | 37 kB
+Progress (4): 0.8/1.4 MB | 192/211 kB | 377/586 kB | 37 kB
+Progress (4): 0.8/1.4 MB | 192/211 kB | 393/586 kB | 37 kB
+Progress (4): 0.8/1.4 MB | 192/211 kB | 410/586 kB | 37 kB
+                                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chromium-driver/4.18.1/selenium-chromium-driver-4.18.1.jar (37 kB at 40 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-manager/4.18.1/selenium-manager-4.18.1.jar
+Progress (3): 0.8/1.4 MB | 208/211 kB | 410/586 kB
+Progress (3): 0.8/1.4 MB | 208/211 kB | 426/586 kB
+Progress (3): 0.8/1.4 MB | 211 kB | 426/586 kB    
+Progress (3): 0.8/1.4 MB | 211 kB | 442/586 kB
+Progress (3): 0.8/1.4 MB | 211 kB | 459/586 kB
+Progress (3): 0.8/1.4 MB | 211 kB | 475/586 kB
+Progress (3): 0.8/1.4 MB | 211 kB | 492/586 kB
+Progress (3): 0.8/1.4 MB | 211 kB | 508/586 kB
+                                              
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar (211 kB at 225 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-http/4.18.1/selenium-http-4.18.1.jar
+Progress (2): 0.8/1.4 MB | 524/586 kB
+Progress (2): 0.8/1.4 MB | 524/586 kB
+Progress (2): 0.8/1.4 MB | 541/586 kB
+Progress (2): 0.8/1.4 MB | 541/586 kB
+Progress (2): 0.8/1.4 MB | 557/586 kB
+Progress (2): 0.8/1.4 MB | 557/586 kB
+Progress (2): 0.8/1.4 MB | 573/586 kB
+Progress (2): 0.8/1.4 MB | 586 kB    
+Progress (2): 0.8/1.4 MB | 586 kB
+Progress (2): 0.9/1.4 MB | 586 kB
+Progress (2): 0.9/1.4 MB | 586 kB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar (586 kB at 619 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.jar
+Progress (1): 0.9/1.4 MB
+Progress (1): 0.9/1.4 MB
+Progress (2): 0.9/1.4 MB | 7.7/71 kB
+Progress (2): 0.9/1.4 MB | 7.7/71 kB
+Progress (2): 0.9/1.4 MB | 24/71 kB 
+Progress (2): 0.9/1.4 MB | 40/71 kB
+Progress (2): 0.9/1.4 MB | 57/71 kB
+Progress (2): 0.9/1.4 MB | 71 kB   
+Progress (2): 0.9/1.4 MB | 71 kB
+                                
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-json/4.18.1/selenium-json-4.18.1.jar (71 kB at 73 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/semconv/opentelemetry-semconv/1.23.1-alpha/opentelemetry-semconv-1.23.1-alpha.jar
+Progress (2): 0.9/1.4 MB | 7.7/82 kB
+Progress (2): 0.9/1.4 MB | 12/82 kB 
+Progress (2): 0.9/1.4 MB | 29/82 kB
+Progress (2): 0.9/1.4 MB | 45/82 kB
+Progress (2): 0.9/1.4 MB | 45/82 kB
+Progress (2): 0.9/1.4 MB | 61/82 kB
+Progress (2): 0.9/1.4 MB | 78/82 kB
+Progress (2): 0.9/1.4 MB | 82 kB   
+Progress (3): 0.9/1.4 MB | 82 kB | 0/3.0 MB
+Progress (3): 0.9/1.4 MB | 82 kB | 0/3.0 MB
+Progress (3): 0.9/1.4 MB | 82 kB | 0/3.0 MB
+Progress (3): 0.9/1.4 MB | 82 kB | 0/3.0 MB
+Progress (3): 0.9/1.4 MB | 82 kB | 0.1/3.0 MB
+Progress (3): 0.9/1.4 MB | 82 kB | 0.1/3.0 MB
+Progress (4): 0.9/1.4 MB | 82 kB | 0.1/3.0 MB | 0/8.9 MB
+Progress (4): 0.9/1.4 MB | 82 kB | 0.1/3.0 MB | 0/8.9 MB
+                                                        
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-http/4.18.1/selenium-http-4.18.1.jar (82 kB at 82 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api/1.35.0/opentelemetry-api-1.35.0.jar
+Progress (3): 0.9/1.4 MB | 0.1/3.0 MB | 0/8.9 MB
+Progress (3): 0.9/1.4 MB | 0.1/3.0 MB | 0/8.9 MB
+Progress (3): 0.9/1.4 MB | 0.1/3.0 MB | 0/8.9 MB
+Progress (3): 0.9/1.4 MB | 0.1/3.0 MB | 0/8.9 MB
+Progress (3): 0.9/1.4 MB | 0.1/3.0 MB | 0/8.9 MB
+Progress (3): 0.9/1.4 MB | 0.2/3.0 MB | 0/8.9 MB
+Progress (3): 0.9/1.4 MB | 0.2/3.0 MB | 0/8.9 MB
+Progress (3): 0.9/1.4 MB | 0.2/3.0 MB | 0/8.9 MB
+Progress (3): 0.9/1.4 MB | 0.2/3.0 MB | 0/8.9 MB
+Progress (3): 0.9/1.4 MB | 0.2/3.0 MB | 0/8.9 MB
+Progress (3): 0.9/1.4 MB | 0.2/3.0 MB | 0/8.9 MB
+Progress (3): 0.9/1.4 MB | 0.2/3.0 MB | 0.1/8.9 MB
+Progress (3): 0.9/1.4 MB | 0.2/3.0 MB | 0.1/8.9 MB
+Progress (3): 0.9/1.4 MB | 0.2/3.0 MB | 0.1/8.9 MB
+Progress (3): 0.9/1.4 MB | 0.3/3.0 MB | 0.1/8.9 MB
+Progress (3): 0.9/1.4 MB | 0.3/3.0 MB | 0.1/8.9 MB
+Progress (3): 0.9/1.4 MB | 0.3/3.0 MB | 0.1/8.9 MB
+Progress (3): 0.9/1.4 MB | 0.3/3.0 MB | 0.1/8.9 MB
+Progress (3): 0.9/1.4 MB | 0.3/3.0 MB | 0.1/8.9 MB
+Progress (3): 0.9/1.4 MB | 0.3/3.0 MB | 0.1/8.9 MB
+Progress (3): 0.9/1.4 MB | 0.3/3.0 MB | 0.1/8.9 MB
+Progress (3): 0.9/1.4 MB | 0.3/3.0 MB | 0.1/8.9 MB
+Progress (3): 0.9/1.4 MB | 0.3/3.0 MB | 0.1/8.9 MB
+Progress (3): 0.9/1.4 MB | 0.4/3.0 MB | 0.1/8.9 MB
+Progress (3): 0.9/1.4 MB | 0.4/3.0 MB | 0.1/8.9 MB
+Progress (3): 0.9/1.4 MB | 0.4/3.0 MB | 0.1/8.9 MB
+Progress (3): 0.9/1.4 MB | 0.4/3.0 MB | 0.1/8.9 MB
+Progress (3): 0.9/1.4 MB | 0.4/3.0 MB | 0.1/8.9 MB
+Progress (3): 0.9/1.4 MB | 0.4/3.0 MB | 0.1/8.9 MB
+Progress (3): 0.9/1.4 MB | 0.4/3.0 MB | 0.1/8.9 MB
+Progress (3): 0.9/1.4 MB | 0.5/3.0 MB | 0.1/8.9 MB
+Progress (3): 0.9/1.4 MB | 0.5/3.0 MB | 0.1/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.5/3.0 MB | 0.1/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.5/3.0 MB | 0.1/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.5/3.0 MB | 0.1/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.5/3.0 MB | 0.1/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.5/3.0 MB | 0.1/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.5/3.0 MB | 0.1/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.5/3.0 MB | 0.2/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.5/3.0 MB | 0.2/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.6/3.0 MB | 0.2/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.6/3.0 MB | 0.2/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.6/3.0 MB | 0.2/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.6/3.0 MB | 0.2/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.6/3.0 MB | 0.2/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.6/3.0 MB | 0.2/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.6/3.0 MB | 0.2/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.7/3.0 MB | 0.2/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.7/3.0 MB | 0.2/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.7/3.0 MB | 0.2/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.7/3.0 MB | 0.2/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.7/3.0 MB | 0.2/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.7/3.0 MB | 0.2/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.7/3.0 MB | 0.2/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.7/3.0 MB | 0.2/8.9 MB
+Progress (4): 1.0/1.4 MB | 0.7/3.0 MB | 0.2/8.9 MB | 4.1/58 kB
+Progress (4): 1.0/1.4 MB | 0.7/3.0 MB | 0.2/8.9 MB | 20/58 kB 
+Progress (4): 1.0/1.4 MB | 0.7/3.0 MB | 0.2/8.9 MB | 29/58 kB
+Progress (4): 1.0/1.4 MB | 0.7/3.0 MB | 0.2/8.9 MB | 45/58 kB
+Progress (4): 1.0/1.4 MB | 0.7/3.0 MB | 0.2/8.9 MB | 58 kB   
+Progress (4): 1.0/1.4 MB | 0.7/3.0 MB | 0.2/8.9 MB | 58 kB
+Progress (4): 1.0/1.4 MB | 0.7/3.0 MB | 0.2/8.9 MB | 58 kB
+Progress (4): 1.0/1.4 MB | 0.7/3.0 MB | 0.2/8.9 MB | 58 kB
+Progress (4): 1.0/1.4 MB | 0.7/3.0 MB | 0.3/8.9 MB | 58 kB
+                                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/semconv/opentelemetry-semconv/1.23.1-alpha/opentelemetry-semconv-1.23.1-alpha.jar (58 kB at 55 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-context/1.35.0/opentelemetry-context-1.35.0.jar
+Progress (3): 1.0/1.4 MB | 0.7/3.0 MB | 0.3/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.7/3.0 MB | 0.3/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.8/3.0 MB | 0.3/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.8/3.0 MB | 0.3/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.8/3.0 MB | 0.3/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.8/3.0 MB | 0.3/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.8/3.0 MB | 0.3/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.8/3.0 MB | 0.3/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.9/3.0 MB | 0.3/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.9/3.0 MB | 0.3/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.9/3.0 MB | 0.3/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.9/3.0 MB | 0.3/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.9/3.0 MB | 0.3/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.9/3.0 MB | 0.3/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.9/3.0 MB | 0.3/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.9/3.0 MB | 0.3/8.9 MB
+Progress (3): 1.0/1.4 MB | 0.9/3.0 MB | 0.3/8.9 MB
+Progress (3): 1.0/1.4 MB | 1.0/3.0 MB | 0.3/8.9 MB
+Progress (3): 1.0/1.4 MB | 1.0/3.0 MB | 0.3/8.9 MB
+Progress (3): 1.0/1.4 MB | 1.0/3.0 MB | 0.3/8.9 MB
+Progress (3): 1.0/1.4 MB | 1.0/3.0 MB | 0.3/8.9 MB
+Progress (3): 1.0/1.4 MB | 1.0/3.0 MB | 0.3/8.9 MB
+Progress (3): 1.0/1.4 MB | 1.0/3.0 MB | 0.3/8.9 MB
+Progress (3): 1.0/1.4 MB | 1.0/3.0 MB | 0.3/8.9 MB
+Progress (3): 1.0/1.4 MB | 1.0/3.0 MB | 0.3/8.9 MB
+Progress (3): 1.0/1.4 MB | 1.1/3.0 MB | 0.3/8.9 MB
+Progress (3): 1.0/1.4 MB | 1.1/3.0 MB | 0.3/8.9 MB
+Progress (3): 1.0/1.4 MB | 1.1/3.0 MB | 0.3/8.9 MB
+Progress (3): 1.0/1.4 MB | 1.1/3.0 MB | 0.3/8.9 MB
+Progress (3): 1.0/1.4 MB | 1.1/3.0 MB | 0.3/8.9 MB
+Progress (3): 1.0/1.4 MB | 1.1/3.0 MB | 0.3/8.9 MB
+Progress (4): 1.0/1.4 MB | 1.1/3.0 MB | 0.3/8.9 MB | 4.1/139 kB
+Progress (4): 1.0/1.4 MB | 1.1/3.0 MB | 0.3/8.9 MB | 4.1/139 kB
+Progress (4): 1.0/1.4 MB | 1.1/3.0 MB | 0.3/8.9 MB | 4.1/139 kB
+Progress (4): 1.0/1.4 MB | 1.1/3.0 MB | 0.3/8.9 MB | 20/139 kB 
+Progress (4): 1.0/1.4 MB | 1.2/3.0 MB | 0.3/8.9 MB | 20/139 kB
+Progress (4): 1.0/1.4 MB | 1.2/3.0 MB | 0.3/8.9 MB | 29/139 kB
+Progress (4): 1.0/1.4 MB | 1.2/3.0 MB | 0.3/8.9 MB | 29/139 kB
+Progress (4): 1.0/1.4 MB | 1.2/3.0 MB | 0.3/8.9 MB | 29/139 kB
+Progress (4): 1.0/1.4 MB | 1.2/3.0 MB | 0.4/8.9 MB | 29/139 kB
+Progress (4): 1.0/1.4 MB | 1.2/3.0 MB | 0.4/8.9 MB | 45/139 kB
+Progress (4): 1.0/1.4 MB | 1.2/3.0 MB | 0.4/8.9 MB | 45/139 kB
+Progress (4): 1.0/1.4 MB | 1.2/3.0 MB | 0.4/8.9 MB | 61/139 kB
+Progress (4): 1.0/1.4 MB | 1.2/3.0 MB | 0.4/8.9 MB | 61/139 kB
+Progress (4): 1.0/1.4 MB | 1.2/3.0 MB | 0.4/8.9 MB | 61/139 kB
+Progress (4): 1.0/1.4 MB | 1.2/3.0 MB | 0.4/8.9 MB | 61/139 kB
+Progress (4): 1.0/1.4 MB | 1.2/3.0 MB | 0.4/8.9 MB | 78/139 kB
+Progress (4): 1.0/1.4 MB | 1.2/3.0 MB | 0.4/8.9 MB | 78/139 kB
+Progress (4): 1.0/1.4 MB | 1.2/3.0 MB | 0.4/8.9 MB | 78/139 kB
+Progress (4): 1.0/1.4 MB | 1.2/3.0 MB | 0.4/8.9 MB | 94/139 kB
+Progress (4): 1.0/1.4 MB | 1.2/3.0 MB | 0.4/8.9 MB | 111/139 kB
+Progress (4): 1.0/1.4 MB | 1.2/3.0 MB | 0.4/8.9 MB | 111/139 kB
+Progress (4): 1.0/1.4 MB | 1.2/3.0 MB | 0.4/8.9 MB | 111/139 kB
+Progress (4): 1.0/1.4 MB | 1.2/3.0 MB | 0.4/8.9 MB | 127/139 kB
+Progress (4): 1.0/1.4 MB | 1.2/3.0 MB | 0.4/8.9 MB | 139 kB    
+Progress (4): 1.0/1.4 MB | 1.2/3.0 MB | 0.4/8.9 MB | 139 kB
+Progress (4): 1.0/1.4 MB | 1.3/3.0 MB | 0.4/8.9 MB | 139 kB
+Progress (4): 1.0/1.4 MB | 1.3/3.0 MB | 0.4/8.9 MB | 139 kB
+Progress (4): 1.0/1.4 MB | 1.3/3.0 MB | 0.4/8.9 MB | 139 kB
+Progress (4): 1.0/1.4 MB | 1.3/3.0 MB | 0.4/8.9 MB | 139 kB
+Progress (4): 1.0/1.4 MB | 1.3/3.0 MB | 0.4/8.9 MB | 139 kB
+Progress (4): 1.0/1.4 MB | 1.3/3.0 MB | 0.4/8.9 MB | 139 kB
+Progress (4): 1.0/1.4 MB | 1.3/3.0 MB | 0.4/8.9 MB | 139 kB
+                                                           
+Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api/1.35.0/opentelemetry-api-1.35.0.jar (139 kB at 123 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-logging/1.35.0/opentelemetry-exporter-logging-1.35.0.jar
+Progress (3): 1.1/1.4 MB | 1.3/3.0 MB | 0.4/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.3/3.0 MB | 0.4/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.4/3.0 MB | 0.4/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.4/3.0 MB | 0.4/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.4/3.0 MB | 0.4/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.4/3.0 MB | 0.4/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.4/3.0 MB | 0.4/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.4/3.0 MB | 0.4/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.4/3.0 MB | 0.4/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.4/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.4/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.4/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.5/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.5/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.5/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.5/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.5/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.5/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.5/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.5/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.6/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.6/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.6/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.6/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.6/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.6/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.6/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.6/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.7/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.7/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.7/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.7/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.7/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.7/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.7/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.7/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.7/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.7/3.0 MB | 0.5/8.9 MB
+Progress (4): 1.1/1.4 MB | 1.7/3.0 MB | 0.5/8.9 MB | 7.7/47 kB
+Progress (4): 1.1/1.4 MB | 1.7/3.0 MB | 0.5/8.9 MB | 16/47 kB 
+Progress (4): 1.1/1.4 MB | 1.7/3.0 MB | 0.5/8.9 MB | 24/47 kB
+Progress (4): 1.1/1.4 MB | 1.7/3.0 MB | 0.5/8.9 MB | 40/47 kB
+Progress (4): 1.1/1.4 MB | 1.7/3.0 MB | 0.5/8.9 MB | 47 kB   
+                                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-context/1.35.0/opentelemetry-context-1.35.0.jar (47 kB at 40 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-common/1.35.0/opentelemetry-sdk-common-1.35.0.jar
+Progress (3): 1.1/1.4 MB | 1.8/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.8/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.8/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.8/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.8/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.8/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.8/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.9/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.9/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.9/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.9/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.9/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 1.9/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 2.0/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 2.0/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 2.0/3.0 MB | 0.5/8.9 MB
+Progress (3): 1.1/1.4 MB | 2.0/3.0 MB | 0.6/8.9 MB
+Progress (3): 1.1/1.4 MB | 2.0/3.0 MB | 0.6/8.9 MB
+Progress (3): 1.1/1.4 MB | 2.0/3.0 MB | 0.6/8.9 MB
+Progress (3): 1.1/1.4 MB | 2.0/3.0 MB | 0.6/8.9 MB
+Progress (3): 1.1/1.4 MB | 2.0/3.0 MB | 0.6/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.0/3.0 MB | 0.6/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.0/3.0 MB | 0.6/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.0/3.0 MB | 0.6/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.1/3.0 MB | 0.6/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.1/3.0 MB | 0.6/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.1/3.0 MB | 0.6/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.1/3.0 MB | 0.6/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.1/3.0 MB | 0.6/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.1/3.0 MB | 0.6/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.1/3.0 MB | 0.6/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.1/3.0 MB | 0.6/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.1/3.0 MB | 0.6/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.2/3.0 MB | 0.6/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.2/3.0 MB | 0.6/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.2/3.0 MB | 0.6/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.2/3.0 MB | 0.6/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.2/3.0 MB | 0.6/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.2/3.0 MB | 0.6/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.2/3.0 MB | 0.6/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.2/3.0 MB | 0.6/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.2/3.0 MB | 0.6/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.3/3.0 MB | 0.6/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.3/3.0 MB | 0.6/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.3/3.0 MB | 0.6/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.3/3.0 MB | 0.7/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.3/3.0 MB | 0.7/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.3/3.0 MB | 0.7/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.3/3.0 MB | 0.7/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.3/3.0 MB | 0.7/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.3/3.0 MB | 0.7/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.3/3.0 MB | 0.7/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.3/3.0 MB | 0.7/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.3/3.0 MB | 0.7/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.3/3.0 MB | 0.7/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.3/3.0 MB | 0.7/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.3/3.0 MB | 0.7/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.3/3.0 MB | 0.8/8.9 MB
+Progress (4): 1.2/1.4 MB | 2.3/3.0 MB | 0.8/8.9 MB | 4.1/11 kB
+Progress (4): 1.2/1.4 MB | 2.3/3.0 MB | 0.8/8.9 MB | 11 kB    
+                                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-logging/1.35.0/opentelemetry-exporter-logging-1.35.0.jar (11 kB at 9.0 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.35.0/opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar
+Progress (3): 1.2/1.4 MB | 2.3/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.3/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.3/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.4/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.4/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.4/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.4/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.4/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.4/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.4/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.5/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.5/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.5/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.5/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.5/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.5/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.2/1.4 MB | 2.5/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.5/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.5/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.5/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.5/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.6/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.6/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.6/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.6/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.6/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.6/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.6/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.6/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.7/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.7/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.7/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.7/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.7/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.7/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.8/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.8/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.8/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.8/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.8/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.8/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.8/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.9/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.9/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.9/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.9/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.9/3.0 MB | 0.8/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.9/3.0 MB | 0.9/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.9/3.0 MB | 0.9/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.9/3.0 MB | 0.9/8.9 MB
+Progress (3): 1.3/1.4 MB | 2.9/3.0 MB | 0.9/8.9 MB
+Progress (3): 1.3/1.4 MB | 3.0/3.0 MB | 0.9/8.9 MB
+Progress (3): 1.3/1.4 MB | 3.0/3.0 MB | 0.9/8.9 MB
+Progress (3): 1.3/1.4 MB | 3.0/3.0 MB | 0.9/8.9 MB
+Progress (3): 1.3/1.4 MB | 3.0/3.0 MB | 0.9/8.9 MB
+Progress (3): 1.3/1.4 MB | 3.0/3.0 MB | 0.9/8.9 MB
+Progress (3): 1.3/1.4 MB | 3.0/3.0 MB | 0.9/8.9 MB
+Progress (4): 1.3/1.4 MB | 3.0/3.0 MB | 0.9/8.9 MB | 7.7/46 kB
+Progress (4): 1.3/1.4 MB | 3.0/3.0 MB | 0.9/8.9 MB | 7.7/46 kB
+Progress (4): 1.3/1.4 MB | 3.0 MB | 0.9/8.9 MB | 7.7/46 kB    
+Progress (4): 1.3/1.4 MB | 3.0 MB | 0.9/8.9 MB | 24/46 kB 
+Progress (4): 1.3/1.4 MB | 3.0 MB | 0.9/8.9 MB | 40/46 kB
+Progress (4): 1.3/1.4 MB | 3.0 MB | 0.9/8.9 MB | 40/46 kB
+Progress (4): 1.3/1.4 MB | 3.0 MB | 0.9/8.9 MB | 40/46 kB
+Progress (4): 1.3/1.4 MB | 3.0 MB | 0.9/8.9 MB | 40/46 kB
+Progress (4): 1.3/1.4 MB | 3.0 MB | 0.9/8.9 MB | 46 kB   
+Progress (4): 1.3/1.4 MB | 3.0 MB | 0.9/8.9 MB | 46 kB
+Progress (4): 1.3/1.4 MB | 3.0 MB | 0.9/8.9 MB | 46 kB
+Progress (4): 1.3/1.4 MB | 3.0 MB | 0.9/8.9 MB | 46 kB
+                                                      
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.jar (3.0 MB at 2.3 MB/s)
+Progress (3): 1.3/1.4 MB | 1.0/8.9 MB | 46 kB
+Progress (3): 1.4/1.4 MB | 1.0/8.9 MB | 46 kB
+                                             
+Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.35.0/opentelemetry-sdk-extension-autoconfigure-1.35.0.jar
+Progress (3): 1.4/1.4 MB | 1.0/8.9 MB | 46 kB
+                                             
+Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-common/1.35.0/opentelemetry-sdk-common-1.35.0.jar (46 kB at 35 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-trace/1.35.0/opentelemetry-sdk-trace-1.35.0.jar
+Progress (2): 1.4/1.4 MB | 1.0/8.9 MB
+Progress (2): 1.4/1.4 MB | 1.0/8.9 MB
+Progress (2): 1.4/1.4 MB | 1.0/8.9 MB
+Progress (2): 1.4/1.4 MB | 1.0/8.9 MB
+Progress (2): 1.4/1.4 MB | 1.0/8.9 MB
+Progress (2): 1.4/1.4 MB | 1.0/8.9 MB
+Progress (2): 1.4/1.4 MB | 1.0/8.9 MB
+Progress (2): 1.4/1.4 MB | 1.1/8.9 MB
+Progress (2): 1.4/1.4 MB | 1.1/8.9 MB
+Progress (3): 1.4/1.4 MB | 1.1/8.9 MB | 7.7/17 kB
+Progress (3): 1.4/1.4 MB | 1.1/8.9 MB | 15/17 kB 
+Progress (3): 1.4/1.4 MB | 1.1/8.9 MB | 17 kB   
+                                             
+Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.35.0/opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar (17 kB at 13 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk/1.35.0/opentelemetry-sdk-1.35.0.jar
+Progress (2): 1.4/1.4 MB | 1.1/8.9 MB
+Progress (2): 1.4/1.4 MB | 1.1/8.9 MB
+Progress (2): 1.4/1.4 MB | 1.1/8.9 MB
+Progress (2): 1.4/1.4 MB | 1.1/8.9 MB
+Progress (2): 1.4/1.4 MB | 1.1/8.9 MB
+Progress (2): 1.4/1.4 MB | 1.1/8.9 MB
+Progress (2): 1.4/1.4 MB | 1.2/8.9 MB
+Progress (2): 1.4 MB | 1.2/8.9 MB    
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v120/4.18.1/selenium-devtools-v120-4.18.1.jar (1.4 MB at 1.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.12/byte-buddy-1.14.12.jar
+Progress (1): 1.2/8.9 MB
+Progress (1): 1.2/8.9 MB
+Progress (2): 1.2/8.9 MB | 7.7/122 kB
+Progress (2): 1.2/8.9 MB | 16/122 kB 
+Progress (2): 1.2/8.9 MB | 25/122 kB
+Progress (2): 1.2/8.9 MB | 41/122 kB
+Progress (2): 1.2/8.9 MB | 57/122 kB
+Progress (2): 1.2/8.9 MB | 74/122 kB
+Progress (2): 1.2/8.9 MB | 90/122 kB
+Progress (2): 1.2/8.9 MB | 106/122 kB
+Progress (2): 1.2/8.9 MB | 122 kB    
+Progress (3): 1.2/8.9 MB | 122 kB | 7.7/43 kB
+Progress (3): 1.2/8.9 MB | 122 kB | 16/43 kB 
+Progress (3): 1.2/8.9 MB | 122 kB | 24/43 kB
+Progress (3): 1.2/8.9 MB | 122 kB | 24/43 kB
+Progress (3): 1.2/8.9 MB | 122 kB | 40/43 kB
+Progress (3): 1.2/8.9 MB | 122 kB | 43 kB   
+Progress (3): 1.2/8.9 MB | 122 kB | 43 kB
+Progress (4): 1.2/8.9 MB | 122 kB | 43 kB | 3.2/6.8 kB
+Progress (4): 1.2/8.9 MB | 122 kB | 43 kB | 6.8 kB    
+Progress (4): 1.2/8.9 MB | 122 kB | 43 kB | 6.8 kB
+Progress (4): 1.3/8.9 MB | 122 kB | 43 kB | 6.8 kB
+                                                  
+Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-trace/1.35.0/opentelemetry-sdk-trace-1.35.0.jar (122 kB at 88 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-os/4.18.1/selenium-os-4.18.1.jar
+Progress (3): 1.3/8.9 MB | 43 kB | 6.8 kB
+Progress (3): 1.3/8.9 MB | 43 kB | 6.8 kB
+Progress (4): 1.3/8.9 MB | 43 kB | 6.8 kB | 0/4.2 MB
+Progress (4): 1.3/8.9 MB | 43 kB | 6.8 kB | 0/4.2 MB
+                                                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk/1.35.0/opentelemetry-sdk-1.35.0.jar (6.8 kB at 4.9 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java-core/3.3.6/docker-java-core-3.3.6.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.35.0/opentelemetry-sdk-extension-autoconfigure-1.35.0.jar (43 kB at 31 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java-transport/3.3.6/docker-java-transport-3.3.6.jar
+Progress (2): 1.3/8.9 MB | 0/4.2 MB
+Progress (2): 1.3/8.9 MB | 0/4.2 MB
+Progress (2): 1.3/8.9 MB | 0/4.2 MB
+Progress (2): 1.3/8.9 MB | 0/4.2 MB
+Progress (2): 1.3/8.9 MB | 0/4.2 MB
+Progress (2): 1.3/8.9 MB | 0/4.2 MB
+Progress (2): 1.4/8.9 MB | 0/4.2 MB
+Progress (2): 1.4/8.9 MB | 0.1/4.2 MB
+Progress (2): 1.4/8.9 MB | 0.1/4.2 MB
+Progress (3): 1.4/8.9 MB | 0.1/4.2 MB | 7.7/29 kB
+Progress (3): 1.4/8.9 MB | 0.1/4.2 MB | 11/29 kB 
+Progress (3): 1.4/8.9 MB | 0.1/4.2 MB | 11/29 kB
+Progress (3): 1.4/8.9 MB | 0.1/4.2 MB | 11/29 kB
+Progress (4): 1.4/8.9 MB | 0.1/4.2 MB | 11/29 kB | 7.7/38 kB
+Progress (4): 1.4/8.9 MB | 0.1/4.2 MB | 11/29 kB | 7.7/38 kB
+Progress (4): 1.4/8.9 MB | 0.1/4.2 MB | 11/29 kB | 24/38 kB 
+Progress (4): 1.4/8.9 MB | 0.1/4.2 MB | 11/29 kB | 38 kB   
+Progress (4): 1.4/8.9 MB | 0.1/4.2 MB | 28/29 kB | 38 kB
+Progress (4): 1.4/8.9 MB | 0.1/4.2 MB | 29 kB | 38 kB   
+Progress (5): 1.4/8.9 MB | 0.1/4.2 MB | 29 kB | 38 kB | 7.7/372 kB
+Progress (5): 1.4/8.9 MB | 0.1/4.2 MB | 29 kB | 38 kB | 16/372 kB 
+Progress (5): 1.4/8.9 MB | 0.1/4.2 MB | 29 kB | 38 kB | 29/372 kB
+Progress (5): 1.4/8.9 MB | 0.1/4.2 MB | 29 kB | 38 kB | 29/372 kB
+Progress (5): 1.4/8.9 MB | 0.1/4.2 MB | 29 kB | 38 kB | 45/372 kB
+Progress (5): 1.4/8.9 MB | 0.1/4.2 MB | 29 kB | 38 kB | 61/372 kB
+                                                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java-transport/3.3.6/docker-java-transport-3.3.6.jar (38 kB at 26 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/cucumber-gherkin/7.15.0/cucumber-gherkin-7.15.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-os/4.18.1/selenium-os-4.18.1.jar (29 kB at 20 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/cucumber-gherkin-messages/7.15.0/cucumber-gherkin-messages-7.15.0.jar
+Progress (3): 1.4/8.9 MB | 0.1/4.2 MB | 78/372 kB
+Progress (3): 1.4/8.9 MB | 0.1/4.2 MB | 94/372 kB
+Progress (3): 1.4/8.9 MB | 0.1/4.2 MB | 98/372 kB
+Progress (3): 1.4/8.9 MB | 0.1/4.2 MB | 115/372 kB
+Progress (3): 1.4/8.9 MB | 0.1/4.2 MB | 131/372 kB
+Progress (3): 1.4/8.9 MB | 0.1/4.2 MB | 131/372 kB
+Progress (3): 1.4/8.9 MB | 0.1/4.2 MB | 147/372 kB
+Progress (3): 1.4/8.9 MB | 0.1/4.2 MB | 164/372 kB
+Progress (3): 1.4/8.9 MB | 0.1/4.2 MB | 180/372 kB
+Progress (3): 1.4/8.9 MB | 0.1/4.2 MB | 197/372 kB
+Progress (3): 1.4/8.9 MB | 0.1/4.2 MB | 213/372 kB
+Progress (3): 1.4/8.9 MB | 0.1/4.2 MB | 213/372 kB
+Progress (3): 1.4/8.9 MB | 0.1/4.2 MB | 229/372 kB
+Progress (3): 1.4/8.9 MB | 0.1/4.2 MB | 246/372 kB
+Progress (3): 1.4/8.9 MB | 0.1/4.2 MB | 262/372 kB
+Progress (3): 1.4/8.9 MB | 0.1/4.2 MB | 279/372 kB
+Progress (3): 1.4/8.9 MB | 0.1/4.2 MB | 295/372 kB
+Progress (3): 1.4/8.9 MB | 0.1/4.2 MB | 311/372 kB
+Progress (3): 1.4/8.9 MB | 0.1/4.2 MB | 328/372 kB
+Progress (3): 1.4/8.9 MB | 0.1/4.2 MB | 344/372 kB
+Progress (3): 1.4/8.9 MB | 0.1/4.2 MB | 360/372 kB
+Progress (3): 1.4/8.9 MB | 0.1/4.2 MB | 360/372 kB
+Progress (3): 1.4/8.9 MB | 0.1/4.2 MB | 360/372 kB
+Progress (3): 1.4/8.9 MB | 0.1/4.2 MB | 372 kB    
+Progress (3): 1.5/8.9 MB | 0.1/4.2 MB | 372 kB
+Progress (3): 1.5/8.9 MB | 0.1/4.2 MB | 372 kB
+Progress (3): 1.5/8.9 MB | 0.1/4.2 MB | 372 kB
+Progress (3): 1.5/8.9 MB | 0.1/4.2 MB | 372 kB
+Progress (3): 1.5/8.9 MB | 0.1/4.2 MB | 372 kB
+Progress (3): 1.5/8.9 MB | 0.1/4.2 MB | 372 kB
+Progress (3): 1.5/8.9 MB | 0.1/4.2 MB | 372 kB
+                                              
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java-core/3.3.6/docker-java-core-3.3.6.jar (372 kB at 254 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/messages/22.0.0/messages-22.0.0.jar
+Progress (2): 1.5/8.9 MB | 0.1/4.2 MB
+Progress (2): 1.5/8.9 MB | 0.2/4.2 MB
+Progress (2): 1.6/8.9 MB | 0.2/4.2 MB
+Progress (2): 1.6/8.9 MB | 0.2/4.2 MB
+Progress (2): 1.6/8.9 MB | 0.2/4.2 MB
+Progress (2): 1.6/8.9 MB | 0.2/4.2 MB
+Progress (2): 1.6/8.9 MB | 0.2/4.2 MB
+Progress (3): 1.6/8.9 MB | 0.2/4.2 MB | 7.7/28 kB
+Progress (3): 1.6/8.9 MB | 0.2/4.2 MB | 16/28 kB 
+Progress (4): 1.6/8.9 MB | 0.2/4.2 MB | 16/28 kB | 7.3 kB
+Progress (4): 1.6/8.9 MB | 0.2/4.2 MB | 28 kB | 7.3 kB   
+Progress (4): 1.6/8.9 MB | 0.2/4.2 MB | 28 kB | 7.3 kB
+Progress (4): 1.6/8.9 MB | 0.2/4.2 MB | 28 kB | 7.3 kB
+Progress (4): 1.6/8.9 MB | 0.2/4.2 MB | 28 kB | 7.3 kB
+                                                      
+Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/cucumber-gherkin-messages/7.15.0/cucumber-gherkin-messages-7.15.0.jar (28 kB at 19 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/tag-expressions/6.0.0/tag-expressions-6.0.0.jar
+Progress (3): 1.6/8.9 MB | 0.2/4.2 MB | 7.3 kB
+                                              
+Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/cucumber-gherkin/7.15.0/cucumber-gherkin-7.15.0.jar (7.3 kB at 4.9 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/cucumber-expressions/17.0.1/cucumber-expressions-17.0.1.jar
+Progress (2): 1.7/8.9 MB | 0.2/4.2 MB
+Progress (2): 1.7/8.9 MB | 0.2/4.2 MB
+Progress (2): 1.7/8.9 MB | 0.2/4.2 MB
+Progress (2): 1.7/8.9 MB | 0.2/4.2 MB
+Progress (3): 1.7/8.9 MB | 0.2/4.2 MB | 7.7/90 kB
+Progress (3): 1.7/8.9 MB | 0.2/4.2 MB | 16/90 kB 
+Progress (3): 1.7/8.9 MB | 0.2/4.2 MB | 25/90 kB
+Progress (3): 1.7/8.9 MB | 0.2/4.2 MB | 41/90 kB
+Progress (3): 1.7/8.9 MB | 0.2/4.2 MB | 41/90 kB
+Progress (3): 1.7/8.9 MB | 0.2/4.2 MB | 57/90 kB
+Progress (3): 1.7/8.9 MB | 0.2/4.2 MB | 74/90 kB
+Progress (3): 1.7/8.9 MB | 0.2/4.2 MB | 74/90 kB
+Progress (3): 1.7/8.9 MB | 0.2/4.2 MB | 90/90 kB
+Progress (3): 1.7/8.9 MB | 0.2/4.2 MB | 90 kB   
+Progress (3): 1.7/8.9 MB | 0.3/4.2 MB | 90 kB
+Progress (3): 1.7/8.9 MB | 0.3/4.2 MB | 90 kB
+Progress (3): 1.7/8.9 MB | 0.3/4.2 MB | 90 kB
+Progress (3): 1.7/8.9 MB | 0.3/4.2 MB | 90 kB
+                                             
+Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/messages/22.0.0/messages-22.0.0.jar (90 kB at 59 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/datatable/7.15.0/datatable-7.15.0.jar
+Progress (2): 1.8/8.9 MB | 0.3/4.2 MB
+Progress (2): 1.8/8.9 MB | 0.3/4.2 MB
+Progress (3): 1.8/8.9 MB | 0.3/4.2 MB | 7.7/78 kB
+Progress (3): 1.8/8.9 MB | 0.3/4.2 MB | 7.7/78 kB
+Progress (3): 1.8/8.9 MB | 0.3/4.2 MB | 7.7/78 kB
+Progress (3): 1.8/8.9 MB | 0.3/4.2 MB | 24/78 kB 
+Progress (3): 1.8/8.9 MB | 0.3/4.2 MB | 24/78 kB
+Progress (3): 1.8/8.9 MB | 0.3/4.2 MB | 40/78 kB
+Progress (4): 1.8/8.9 MB | 0.3/4.2 MB | 40/78 kB | 7.7/13 kB
+Progress (4): 1.8/8.9 MB | 0.3/4.2 MB | 40/78 kB | 11/13 kB 
+Progress (4): 1.8/8.9 MB | 0.3/4.2 MB | 40/78 kB | 13 kB   
+                                                        
+Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/tag-expressions/6.0.0/tag-expressions-6.0.0.jar (13 kB at 8.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/cucumber-plugin/7.15.0/cucumber-plugin-7.15.0.jar
+Progress (3): 1.8/8.9 MB | 0.3/4.2 MB | 40/78 kB
+Progress (3): 1.8/8.9 MB | 0.3/4.2 MB | 57/78 kB
+Progress (3): 1.8/8.9 MB | 0.3/4.2 MB | 57/78 kB
+Progress (3): 1.8/8.9 MB | 0.3/4.2 MB | 73/78 kB
+Progress (3): 1.8/8.9 MB | 0.3/4.2 MB | 73/78 kB
+Progress (3): 1.8/8.9 MB | 0.3/4.2 MB | 78 kB   
+Progress (3): 1.8/8.9 MB | 0.3/4.2 MB | 78 kB
+                                             
+Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/cucumber-expressions/17.0.1/cucumber-expressions-17.0.1.jar (78 kB at 50 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/docstring/7.15.0/docstring-7.15.0.jar
+Progress (2): 1.8/8.9 MB | 0.3/4.2 MB
+Progress (2): 1.8/8.9 MB | 0.3/4.2 MB
+Progress (2): 1.8/8.9 MB | 0.3/4.2 MB
+Progress (2): 1.8/8.9 MB | 0.4/4.2 MB
+Progress (2): 1.9/8.9 MB | 0.4/4.2 MB
+Progress (2): 1.9/8.9 MB | 0.4/4.2 MB
+Progress (2): 1.9/8.9 MB | 0.4/4.2 MB
+Progress (2): 1.9/8.9 MB | 0.4/4.2 MB
+Progress (3): 1.9/8.9 MB | 0.4/4.2 MB | 7.7/108 kB
+Progress (3): 1.9/8.9 MB | 0.4/4.2 MB | 16/108 kB 
+Progress (3): 1.9/8.9 MB | 0.4/4.2 MB | 32/108 kB
+Progress (3): 1.9/8.9 MB | 0.4/4.2 MB | 49/108 kB
+Progress (3): 1.9/8.9 MB | 0.4/4.2 MB | 61/108 kB
+Progress (3): 1.9/8.9 MB | 0.4/4.2 MB | 78/108 kB
+Progress (3): 1.9/8.9 MB | 0.4/4.2 MB | 94/108 kB
+Progress (3): 1.9/8.9 MB | 0.4/4.2 MB | 94/108 kB
+Progress (3): 1.9/8.9 MB | 0.4/4.2 MB | 108 kB   
+Progress (3): 1.9/8.9 MB | 0.4/4.2 MB | 108 kB
+Progress (3): 1.9/8.9 MB | 0.4/4.2 MB | 108 kB
+Progress (3): 1.9/8.9 MB | 0.4/4.2 MB | 108 kB
+Progress (3): 1.9/8.9 MB | 0.4/4.2 MB | 108 kB
+Progress (3): 2.0/8.9 MB | 0.4/4.2 MB | 108 kB
+                                              
+Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/datatable/7.15.0/datatable-7.15.0.jar (108 kB at 68 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar
+Progress (3): 2.0/8.9 MB | 0.4/4.2 MB | 7.7/33 kB
+Progress (3): 2.0/8.9 MB | 0.4/4.2 MB | 11/33 kB 
+Progress (3): 2.0/8.9 MB | 0.4/4.2 MB | 28/33 kB
+Progress (3): 2.0/8.9 MB | 0.4/4.2 MB | 33 kB   
+Progress (4): 2.0/8.9 MB | 0.4/4.2 MB | 33 kB | 7.7/12 kB
+Progress (4): 2.0/8.9 MB | 0.4/4.2 MB | 33 kB | 11/12 kB 
+Progress (4): 2.0/8.9 MB | 0.4/4.2 MB | 33 kB | 12 kB   
+Progress (4): 2.0/8.9 MB | 0.4/4.2 MB | 33 kB | 12 kB
+Progress (4): 2.0/8.9 MB | 0.4/4.2 MB | 33 kB | 12 kB
+                                                     
+Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/cucumber-plugin/7.15.0/cucumber-plugin-7.15.0.jar (33 kB at 21 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar
+Progress (3): 2.0/8.9 MB | 0.4/4.2 MB | 12 kB
+Progress (3): 2.0/8.9 MB | 0.4/4.2 MB | 12 kB
+                                             
+Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/docstring/7.15.0/docstring-7.15.0.jar (12 kB at 7.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/ci-environment/10.0.0/ci-environment-10.0.0.jar
+Progress (2): 2.0/8.9 MB | 0.4/4.2 MB
+Progress (2): 2.0/8.9 MB | 0.5/4.2 MB
+Progress (2): 2.0/8.9 MB | 0.5/4.2 MB
+Progress (2): 2.0/8.9 MB | 0.5/4.2 MB
+Progress (2): 2.0/8.9 MB | 0.5/4.2 MB
+Progress (2): 2.1/8.9 MB | 0.5/4.2 MB
+Progress (2): 2.1/8.9 MB | 0.5/4.2 MB
+Progress (2): 2.1/8.9 MB | 0.5/4.2 MB
+Progress (2): 2.1/8.9 MB | 0.5/4.2 MB
+Progress (2): 2.1/8.9 MB | 0.5/4.2 MB
+Progress (2): 2.1/8.9 MB | 0.5/4.2 MB
+Progress (2): 2.1/8.9 MB | 0.5/4.2 MB
+Progress (2): 2.1/8.9 MB | 0.5/4.2 MB
+Progress (3): 2.1/8.9 MB | 0.5/4.2 MB | 7.7/17 kB
+Progress (3): 2.1/8.9 MB | 0.5/4.2 MB | 16/17 kB 
+Progress (3): 2.1/8.9 MB | 0.5/4.2 MB | 17 kB   
+Progress (3): 2.1/8.9 MB | 0.5/4.2 MB | 17 kB
+Progress (4): 2.1/8.9 MB | 0.5/4.2 MB | 17 kB | 7.7/594 kB
+Progress (4): 2.1/8.9 MB | 0.5/4.2 MB | 17 kB | 16/594 kB 
+Progress (4): 2.1/8.9 MB | 0.5/4.2 MB | 17 kB | 32/594 kB
+                                                         
+Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar (17 kB at 10 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.10.2/junit-platform-launcher-1.10.2.jar
+Progress (3): 2.1/8.9 MB | 0.5/4.2 MB | 49/594 kB
+Progress (3): 2.1/8.9 MB | 0.5/4.2 MB | 49/594 kB
+Progress (3): 2.1/8.9 MB | 0.5/4.2 MB | 65/594 kB
+Progress (3): 2.1/8.9 MB | 0.5/4.2 MB | 81/594 kB
+Progress (4): 2.1/8.9 MB | 0.5/4.2 MB | 81/594 kB | 7.7/50 kB
+Progress (4): 2.1/8.9 MB | 0.5/4.2 MB | 81/594 kB | 16/50 kB 
+Progress (4): 2.1/8.9 MB | 0.5/4.2 MB | 81/594 kB | 24/50 kB
+Progress (4): 2.1/8.9 MB | 0.5/4.2 MB | 98/594 kB | 24/50 kB
+Progress (4): 2.1/8.9 MB | 0.5/4.2 MB | 98/594 kB | 40/50 kB
+Progress (4): 2.1/8.9 MB | 0.5/4.2 MB | 98/594 kB | 50 kB   
+Progress (4): 2.1/8.9 MB | 0.5/4.2 MB | 114/594 kB | 50 kB
+Progress (4): 2.1/8.9 MB | 0.5/4.2 MB | 131/594 kB | 50 kB
+                                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/ci-environment/10.0.0/ci-environment-10.0.0.jar (50 kB at 30 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.41.0/checker-qual-3.41.0.jar
+Progress (3): 2.2/8.9 MB | 0.5/4.2 MB | 131/594 kB
+Progress (3): 2.2/8.9 MB | 0.5/4.2 MB | 147/594 kB
+Progress (3): 2.2/8.9 MB | 0.5/4.2 MB | 163/594 kB
+Progress (3): 2.2/8.9 MB | 0.5/4.2 MB | 180/594 kB
+Progress (3): 2.2/8.9 MB | 0.5/4.2 MB | 196/594 kB
+Progress (3): 2.2/8.9 MB | 0.5/4.2 MB | 212/594 kB
+Progress (3): 2.2/8.9 MB | 0.5/4.2 MB | 229/594 kB
+Progress (3): 2.2/8.9 MB | 0.5/4.2 MB | 237/594 kB
+Progress (3): 2.2/8.9 MB | 0.5/4.2 MB | 253/594 kB
+Progress (3): 2.2/8.9 MB | 0.5/4.2 MB | 270/594 kB
+Progress (3): 2.2/8.9 MB | 0.5/4.2 MB | 286/594 kB
+Progress (3): 2.2/8.9 MB | 0.6/4.2 MB | 286/594 kB
+Progress (3): 2.2/8.9 MB | 0.6/4.2 MB | 302/594 kB
+Progress (3): 2.2/8.9 MB | 0.6/4.2 MB | 319/594 kB
+Progress (3): 2.2/8.9 MB | 0.6/4.2 MB | 335/594 kB
+Progress (3): 2.2/8.9 MB | 0.6/4.2 MB | 335/594 kB
+Progress (3): 2.2/8.9 MB | 0.6/4.2 MB | 352/594 kB
+Progress (3): 2.2/8.9 MB | 0.6/4.2 MB | 368/594 kB
+Progress (3): 2.2/8.9 MB | 0.6/4.2 MB | 384/594 kB
+Progress (3): 2.2/8.9 MB | 0.6/4.2 MB | 401/594 kB
+Progress (3): 2.2/8.9 MB | 0.6/4.2 MB | 417/594 kB
+Progress (3): 2.2/8.9 MB | 0.6/4.2 MB | 434/594 kB
+Progress (3): 2.2/8.9 MB | 0.6/4.2 MB | 450/594 kB
+Progress (3): 2.2/8.9 MB | 0.6/4.2 MB | 466/594 kB
+Progress (3): 2.2/8.9 MB | 0.6/4.2 MB | 483/594 kB
+Progress (3): 2.2/8.9 MB | 0.6/4.2 MB | 499/594 kB
+Progress (3): 2.2/8.9 MB | 0.6/4.2 MB | 515/594 kB
+Progress (3): 2.2/8.9 MB | 0.6/4.2 MB | 515/594 kB
+Progress (3): 2.2/8.9 MB | 0.6/4.2 MB | 532/594 kB
+Progress (3): 2.2/8.9 MB | 0.6/4.2 MB | 548/594 kB
+Progress (3): 2.2/8.9 MB | 0.6/4.2 MB | 565/594 kB
+Progress (3): 2.2/8.9 MB | 0.6/4.2 MB | 565/594 kB
+Progress (3): 2.2/8.9 MB | 0.6/4.2 MB | 581/594 kB
+Progress (3): 2.2/8.9 MB | 0.6/4.2 MB | 581/594 kB
+Progress (3): 2.2/8.9 MB | 0.6/4.2 MB | 581/594 kB
+Progress (3): 2.2/8.9 MB | 0.6/4.2 MB | 581/594 kB
+Progress (3): 2.2/8.9 MB | 0.6/4.2 MB | 581/594 kB
+Progress (3): 2.2/8.9 MB | 0.6/4.2 MB | 581/594 kB
+Progress (3): 2.2/8.9 MB | 0.6/4.2 MB | 594 kB    
+Progress (3): 2.2/8.9 MB | 0.6/4.2 MB | 594 kB
+Progress (3): 2.2/8.9 MB | 0.6/4.2 MB | 594 kB
+Progress (3): 2.3/8.9 MB | 0.6/4.2 MB | 594 kB
+Progress (3): 2.3/8.9 MB | 0.6/4.2 MB | 594 kB
+Progress (3): 2.3/8.9 MB | 0.6/4.2 MB | 594 kB
+Progress (3): 2.3/8.9 MB | 0.7/4.2 MB | 594 kB
+Progress (3): 2.3/8.9 MB | 0.7/4.2 MB | 594 kB
+Progress (3): 2.3/8.9 MB | 0.7/4.2 MB | 594 kB
+Progress (3): 2.3/8.9 MB | 0.7/4.2 MB | 594 kB
+Progress (4): 2.3/8.9 MB | 0.7/4.2 MB | 594 kB | 3.2/184 kB
+Progress (4): 2.3/8.9 MB | 0.7/4.2 MB | 594 kB | 3.2/184 kB
+Progress (4): 2.3/8.9 MB | 0.7/4.2 MB | 594 kB | 20/184 kB 
+Progress (4): 2.3/8.9 MB | 0.7/4.2 MB | 594 kB | 28/184 kB
+Progress (4): 2.3/8.9 MB | 0.7/4.2 MB | 594 kB | 28/184 kB
+Progress (4): 2.3/8.9 MB | 0.7/4.2 MB | 594 kB | 44/184 kB
+Progress (4): 2.3/8.9 MB | 0.7/4.2 MB | 594 kB | 61/184 kB
+Progress (4): 2.4/8.9 MB | 0.7/4.2 MB | 594 kB | 61/184 kB
+Progress (4): 2.4/8.9 MB | 0.7/4.2 MB | 594 kB | 61/184 kB
+Progress (4): 2.4/8.9 MB | 0.7/4.2 MB | 594 kB | 61/184 kB
+                                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar (594 kB at 345 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.23.0/error_prone_annotations-2.23.0.jar
+Progress (3): 2.4/8.9 MB | 0.7/4.2 MB | 77/184 kB
+Progress (4): 2.4/8.9 MB | 0.7/4.2 MB | 77/184 kB | 7.7/229 kB
+Progress (4): 2.4/8.9 MB | 0.7/4.2 MB | 77/184 kB | 11/229 kB 
+Progress (4): 2.4/8.9 MB | 0.7/4.2 MB | 77/184 kB | 28/229 kB
+Progress (4): 2.4/8.9 MB | 0.7/4.2 MB | 77/184 kB | 44/229 kB
+Progress (4): 2.4/8.9 MB | 0.7/4.2 MB | 93/184 kB | 44/229 kB
+Progress (4): 2.4/8.9 MB | 0.7/4.2 MB | 93/184 kB | 61/229 kB
+Progress (4): 2.4/8.9 MB | 0.7/4.2 MB | 93/184 kB | 77/229 kB
+Progress (4): 2.4/8.9 MB | 0.7/4.2 MB | 93/184 kB | 93/229 kB
+Progress (4): 2.4/8.9 MB | 0.7/4.2 MB | 93/184 kB | 93/229 kB
+Progress (4): 2.4/8.9 MB | 0.7/4.2 MB | 110/184 kB | 93/229 kB
+Progress (4): 2.4/8.9 MB | 0.7/4.2 MB | 110/184 kB | 110/229 kB
+Progress (4): 2.4/8.9 MB | 0.7/4.2 MB | 110/184 kB | 126/229 kB
+Progress (4): 2.4/8.9 MB | 0.7/4.2 MB | 110/184 kB | 142/229 kB
+Progress (4): 2.4/8.9 MB | 0.7/4.2 MB | 110/184 kB | 159/229 kB
+Progress (4): 2.4/8.9 MB | 0.7/4.2 MB | 110/184 kB | 159/229 kB
+Progress (4): 2.4/8.9 MB | 0.7/4.2 MB | 110/184 kB | 175/229 kB
+Progress (4): 2.4/8.9 MB | 0.7/4.2 MB | 110/184 kB | 192/229 kB
+Progress (4): 2.4/8.9 MB | 0.7/4.2 MB | 110/184 kB | 208/229 kB
+Progress (4): 2.4/8.9 MB | 0.7/4.2 MB | 110/184 kB | 224/229 kB
+Progress (4): 2.4/8.9 MB | 0.7/4.2 MB | 110/184 kB | 229 kB    
+                                                           
+Downloaded from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.41.0/checker-qual-3.41.0.jar (229 kB at 131 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api-events/1.35.0-alpha/opentelemetry-api-events-1.35.0-alpha.jar
+Progress (3): 2.4/8.9 MB | 0.7/4.2 MB | 126/184 kB
+Progress (3): 2.4/8.9 MB | 0.7/4.2 MB | 126/184 kB
+Progress (3): 2.4/8.9 MB | 0.7/4.2 MB | 126/184 kB
+Progress (3): 2.4/8.9 MB | 0.7/4.2 MB | 142/184 kB
+Progress (3): 2.4/8.9 MB | 0.7/4.2 MB | 142/184 kB
+Progress (3): 2.4/8.9 MB | 0.7/4.2 MB | 159/184 kB
+Progress (3): 2.4/8.9 MB | 0.7/4.2 MB | 175/184 kB
+Progress (3): 2.4/8.9 MB | 0.7/4.2 MB | 175/184 kB
+Progress (3): 2.4/8.9 MB | 0.7/4.2 MB | 175/184 kB
+Progress (3): 2.4/8.9 MB | 0.7/4.2 MB | 184 kB    
+Progress (3): 2.4/8.9 MB | 0.7/4.2 MB | 184 kB
+Progress (3): 2.5/8.9 MB | 0.7/4.2 MB | 184 kB
+Progress (3): 2.5/8.9 MB | 0.7/4.2 MB | 184 kB
+Progress (3): 2.5/8.9 MB | 0.7/4.2 MB | 184 kB
+                                              
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.10.2/junit-platform-launcher-1.10.2.jar (184 kB at 105 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-extension-incubator/1.35.0-alpha/opentelemetry-extension-incubator-1.35.0-alpha.jar
+Progress (2): 2.5/8.9 MB | 0.7/4.2 MB
+Progress (2): 2.5/8.9 MB | 0.8/4.2 MB
+Progress (2): 2.5/8.9 MB | 0.8/4.2 MB
+Progress (2): 2.5/8.9 MB | 0.8/4.2 MB
+Progress (2): 2.5/8.9 MB | 0.8/4.2 MB
+Progress (2): 2.5/8.9 MB | 0.8/4.2 MB
+Progress (2): 2.6/8.9 MB | 0.8/4.2 MB
+Progress (2): 2.6/8.9 MB | 0.8/4.2 MB
+Progress (2): 2.6/8.9 MB | 0.8/4.2 MB
+Progress (3): 2.6/8.9 MB | 0.8/4.2 MB | 7.7/17 kB
+Progress (3): 2.6/8.9 MB | 0.8/4.2 MB | 7.7/17 kB
+Progress (3): 2.6/8.9 MB | 0.8/4.2 MB | 17 kB    
+Progress (3): 2.6/8.9 MB | 0.8/4.2 MB | 17 kB
+Progress (3): 2.6/8.9 MB | 0.8/4.2 MB | 17 kB
+                                             
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.23.0/error_prone_annotations-2.23.0.jar (17 kB at 9.5 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-metrics/1.35.0/opentelemetry-sdk-metrics-1.35.0.jar
+Progress (2): 2.6/8.9 MB | 0.8/4.2 MB
+Progress (2): 2.6/8.9 MB | 0.8/4.2 MB
+Progress (2): 2.6/8.9 MB | 0.8/4.2 MB
+Progress (2): 2.6/8.9 MB | 0.8/4.2 MB
+Progress (2): 2.6/8.9 MB | 0.9/4.2 MB
+Progress (2): 2.6/8.9 MB | 0.9/4.2 MB
+Progress (2): 2.6/8.9 MB | 0.9/4.2 MB
+Progress (2): 2.6/8.9 MB | 0.9/4.2 MB
+Progress (2): 2.7/8.9 MB | 0.9/4.2 MB
+Progress (3): 2.7/8.9 MB | 0.9/4.2 MB | 7.3 kB
+Progress (4): 2.7/8.9 MB | 0.9/4.2 MB | 7.3 kB | 4.1/33 kB
+Progress (4): 2.7/8.9 MB | 0.9/4.2 MB | 7.3 kB | 20/33 kB 
+Progress (4): 2.7/8.9 MB | 0.9/4.2 MB | 7.3 kB | 20/33 kB
+Progress (4): 2.7/8.9 MB | 0.9/4.2 MB | 7.3 kB | 33 kB   
+Progress (4): 2.7/8.9 MB | 0.9/4.2 MB | 7.3 kB | 33 kB
+Progress (4): 2.7/8.9 MB | 0.9/4.2 MB | 7.3 kB | 33 kB
+                                                      
+Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api-events/1.35.0-alpha/opentelemetry-api-events-1.35.0-alpha.jar (7.3 kB at 4.0 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-logs/1.35.0/opentelemetry-sdk-logs-1.35.0.jar
+Progress (3): 2.7/8.9 MB | 0.9/4.2 MB | 33 kB
+Progress (3): 2.7/8.9 MB | 0.9/4.2 MB | 33 kB
+                                             
+Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-extension-incubator/1.35.0-alpha/opentelemetry-extension-incubator-1.35.0-alpha.jar (33 kB at 18 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java-api/3.3.6/docker-java-api-3.3.6.jar
+Progress (2): 2.7/8.9 MB | 0.9/4.2 MB
+Progress (2): 2.7/8.9 MB | 0.9/4.2 MB
+Progress (2): 2.7/8.9 MB | 0.9/4.2 MB
+Progress (2): 2.7/8.9 MB | 0.9/4.2 MB
+Progress (3): 2.7/8.9 MB | 0.9/4.2 MB | 7.7/304 kB
+Progress (3): 2.7/8.9 MB | 0.9/4.2 MB | 12/304 kB 
+Progress (3): 2.7/8.9 MB | 0.9/4.2 MB | 29/304 kB
+Progress (3): 2.7/8.9 MB | 0.9/4.2 MB | 45/304 kB
+Progress (3): 2.7/8.9 MB | 0.9/4.2 MB | 61/304 kB
+Progress (3): 2.7/8.9 MB | 0.9/4.2 MB | 78/304 kB
+Progress (3): 2.7/8.9 MB | 0.9/4.2 MB | 94/304 kB
+Progress (3): 2.7/8.9 MB | 0.9/4.2 MB | 111/304 kB
+Progress (3): 2.8/8.9 MB | 0.9/4.2 MB | 111/304 kB
+Progress (3): 2.8/8.9 MB | 0.9/4.2 MB | 127/304 kB
+Progress (3): 2.8/8.9 MB | 0.9/4.2 MB | 127/304 kB
+Progress (3): 2.8/8.9 MB | 0.9/4.2 MB | 143/304 kB
+Progress (3): 2.8/8.9 MB | 0.9/4.2 MB | 160/304 kB
+Progress (3): 2.8/8.9 MB | 0.9/4.2 MB | 176/304 kB
+Progress (3): 2.8/8.9 MB | 0.9/4.2 MB | 193/304 kB
+Progress (3): 2.8/8.9 MB | 0.9/4.2 MB | 209/304 kB
+Progress (3): 2.8/8.9 MB | 0.9/4.2 MB | 225/304 kB
+Progress (3): 2.8/8.9 MB | 0.9/4.2 MB | 242/304 kB
+Progress (3): 2.8/8.9 MB | 0.9/4.2 MB | 258/304 kB
+Progress (3): 2.8/8.9 MB | 0.9/4.2 MB | 274/304 kB
+Progress (3): 2.8/8.9 MB | 0.9/4.2 MB | 291/304 kB
+Progress (3): 2.8/8.9 MB | 0.9/4.2 MB | 304 kB    
+Progress (3): 2.8/8.9 MB | 1.0/4.2 MB | 304 kB
+Progress (3): 2.8/8.9 MB | 1.0/4.2 MB | 304 kB
+Progress (3): 2.8/8.9 MB | 1.0/4.2 MB | 304 kB
+Progress (3): 2.8/8.9 MB | 1.0/4.2 MB | 304 kB
+Progress (3): 2.8/8.9 MB | 1.0/4.2 MB | 304 kB
+Progress (3): 2.8/8.9 MB | 1.0/4.2 MB | 304 kB
+Progress (3): 2.8/8.9 MB | 1.0/4.2 MB | 304 kB
+Progress (3): 2.8/8.9 MB | 1.0/4.2 MB | 304 kB
+Progress (3): 2.8/8.9 MB | 1.0/4.2 MB | 304 kB
+Progress (3): 2.8/8.9 MB | 1.0/4.2 MB | 304 kB
+Progress (3): 2.9/8.9 MB | 1.0/4.2 MB | 304 kB
+Progress (4): 2.9/8.9 MB | 1.0/4.2 MB | 304 kB | 7.7/50 kB
+Progress (4): 2.9/8.9 MB | 1.0/4.2 MB | 304 kB | 16/50 kB 
+Progress (4): 2.9/8.9 MB | 1.0/4.2 MB | 304 kB | 25/50 kB
+Progress (4): 2.9/8.9 MB | 1.0/4.2 MB | 304 kB | 25/50 kB
+Progress (4): 2.9/8.9 MB | 1.0/4.2 MB | 304 kB | 25/50 kB
+Progress (4): 2.9/8.9 MB | 1.0/4.2 MB | 304 kB | 41/50 kB
+Progress (4): 2.9/8.9 MB | 1.0/4.2 MB | 304 kB | 50 kB   
+Progress (4): 2.9/8.9 MB | 1.0/4.2 MB | 304 kB | 50 kB
+Progress (4): 2.9/8.9 MB | 1.0/4.2 MB | 304 kB | 50 kB
+Progress (4): 2.9/8.9 MB | 1.0/4.2 MB | 304 kB | 50 kB
+                                                      
+Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-metrics/1.35.0/opentelemetry-sdk-metrics-1.35.0.jar (304 kB at 163 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar
+Progress (4): 2.9/8.9 MB | 1.0/4.2 MB | 50 kB | 7.7/473 kB
+Progress (4): 2.9/8.9 MB | 1.0/4.2 MB | 50 kB | 16/473 kB 
+Progress (4): 2.9/8.9 MB | 1.0/4.2 MB | 50 kB | 32/473 kB
+Progress (4): 2.9/8.9 MB | 1.0/4.2 MB | 50 kB | 33/473 kB
+Progress (4): 2.9/8.9 MB | 1.0/4.2 MB | 50 kB | 49/473 kB
+                                                         
+Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-logs/1.35.0/opentelemetry-sdk-logs-1.35.0.jar (50 kB at 27 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar
+Progress (3): 2.9/8.9 MB | 1.0/4.2 MB | 49/473 kB
+Progress (3): 2.9/8.9 MB | 1.0/4.2 MB | 66/473 kB
+Progress (3): 2.9/8.9 MB | 1.1/4.2 MB | 66/473 kB
+Progress (3): 2.9/8.9 MB | 1.1/4.2 MB | 82/473 kB
+Progress (3): 2.9/8.9 MB | 1.1/4.2 MB | 98/473 kB
+Progress (3): 2.9/8.9 MB | 1.1/4.2 MB | 115/473 kB
+Progress (3): 2.9/8.9 MB | 1.1/4.2 MB | 131/473 kB
+Progress (3): 2.9/8.9 MB | 1.1/4.2 MB | 147/473 kB
+Progress (3): 2.9/8.9 MB | 1.1/4.2 MB | 164/473 kB
+Progress (3): 2.9/8.9 MB | 1.1/4.2 MB | 180/473 kB
+Progress (3): 2.9/8.9 MB | 1.1/4.2 MB | 197/473 kB
+Progress (3): 2.9/8.9 MB | 1.1/4.2 MB | 213/473 kB
+Progress (3): 2.9/8.9 MB | 1.1/4.2 MB | 229/473 kB
+Progress (3): 2.9/8.9 MB | 1.1/4.2 MB | 246/473 kB
+Progress (3): 2.9/8.9 MB | 1.1/4.2 MB | 262/473 kB
+Progress (3): 2.9/8.9 MB | 1.1/4.2 MB | 262/473 kB
+Progress (3): 2.9/8.9 MB | 1.1/4.2 MB | 279/473 kB
+Progress (3): 2.9/8.9 MB | 1.1/4.2 MB | 295/473 kB
+Progress (3): 2.9/8.9 MB | 1.1/4.2 MB | 311/473 kB
+Progress (3): 2.9/8.9 MB | 1.1/4.2 MB | 311/473 kB
+Progress (3): 2.9/8.9 MB | 1.1/4.2 MB | 328/473 kB
+Progress (3): 2.9/8.9 MB | 1.1/4.2 MB | 344/473 kB
+Progress (3): 2.9/8.9 MB | 1.1/4.2 MB | 360/473 kB
+Progress (3): 2.9/8.9 MB | 1.1/4.2 MB | 364/473 kB
+Progress (3): 2.9/8.9 MB | 1.1/4.2 MB | 381/473 kB
+Progress (3): 2.9/8.9 MB | 1.1/4.2 MB | 397/473 kB
+Progress (3): 2.9/8.9 MB | 1.1/4.2 MB | 413/473 kB
+Progress (3): 2.9/8.9 MB | 1.1/4.2 MB | 430/473 kB
+Progress (3): 2.9/8.9 MB | 1.1/4.2 MB | 446/473 kB
+Progress (3): 2.9/8.9 MB | 1.1/4.2 MB | 446/473 kB
+Progress (3): 3.0/8.9 MB | 1.1/4.2 MB | 446/473 kB
+Progress (3): 3.0/8.9 MB | 1.1/4.2 MB | 463/473 kB
+Progress (3): 3.0/8.9 MB | 1.1/4.2 MB | 463/473 kB
+Progress (3): 3.0/8.9 MB | 1.1/4.2 MB | 473 kB    
+Progress (3): 3.0/8.9 MB | 1.1/4.2 MB | 473 kB
+Progress (3): 3.0/8.9 MB | 1.1/4.2 MB | 473 kB
+Progress (3): 3.0/8.9 MB | 1.1/4.2 MB | 473 kB
+Progress (3): 3.0/8.9 MB | 1.1/4.2 MB | 473 kB
+Progress (3): 3.0/8.9 MB | 1.1/4.2 MB | 473 kB
+                                              
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java-api/3.3.6/docker-java-api-3.3.6.jar (473 kB at 247 kB/s)
+Progress (2): 3.0/8.9 MB | 1.1/4.2 MB
+Progress (2): 3.0/8.9 MB | 1.1/4.2 MB
+Progress (2): 3.0/8.9 MB | 1.1/4.2 MB
+Progress (2): 3.0/8.9 MB | 1.2/4.2 MB
+Progress (2): 3.1/8.9 MB | 1.2/4.2 MB
+Progress (2): 3.1/8.9 MB | 1.2/4.2 MB
+Progress (2): 3.1/8.9 MB | 1.2/4.2 MB
+Progress (2): 3.1/8.9 MB | 1.2/4.2 MB
+Progress (2): 3.1/8.9 MB | 1.2/4.2 MB
+Progress (2): 3.1/8.9 MB | 1.2/4.2 MB
+Progress (2): 3.1/8.9 MB | 1.2/4.2 MB
+Progress (2): 3.1/8.9 MB | 1.2/4.2 MB
+Progress (3): 3.1/8.9 MB | 1.2/4.2 MB | 7.7/111 kB
+Progress (3): 3.1/8.9 MB | 1.2/4.2 MB | 16/111 kB 
+Progress (4): 3.1/8.9 MB | 1.2/4.2 MB | 16/111 kB | 7.7/349 kB
+Progress (4): 3.1/8.9 MB | 1.2/4.2 MB | 24/111 kB | 7.7/349 kB
+Progress (4): 3.1/8.9 MB | 1.2/4.2 MB | 24/111 kB | 7.7/349 kB
+Progress (4): 3.1/8.9 MB | 1.2/4.2 MB | 24/111 kB | 24/349 kB 
+Progress (4): 3.1/8.9 MB | 1.2/4.2 MB | 24/111 kB | 40/349 kB
+Progress (4): 3.1/8.9 MB | 1.2/4.2 MB | 24/111 kB | 40/349 kB
+Progress (4): 3.1/8.9 MB | 1.2/4.2 MB | 24/111 kB | 57/349 kB
+Progress (4): 3.1/8.9 MB | 1.2/4.2 MB | 24/111 kB | 73/349 kB
+Progress (4): 3.1/8.9 MB | 1.2/4.2 MB | 24/111 kB | 90/349 kB
+Progress (4): 3.1/8.9 MB | 1.2/4.2 MB | 24/111 kB | 106/349 kB
+Progress (4): 3.1/8.9 MB | 1.2/4.2 MB | 40/111 kB | 106/349 kB
+Progress (4): 3.1/8.9 MB | 1.2/4.2 MB | 40/111 kB | 122/349 kB
+Progress (4): 3.1/8.9 MB | 1.2/4.2 MB | 40/111 kB | 139/349 kB
+Progress (4): 3.1/8.9 MB | 1.2/4.2 MB | 40/111 kB | 155/349 kB
+Progress (4): 3.1/8.9 MB | 1.2/4.2 MB | 40/111 kB | 172/349 kB
+Progress (4): 3.1/8.9 MB | 1.2/4.2 MB | 57/111 kB | 172/349 kB
+Progress (4): 3.1/8.9 MB | 1.2/4.2 MB | 57/111 kB | 188/349 kB
+Progress (4): 3.1/8.9 MB | 1.2/4.2 MB | 57/111 kB | 204/349 kB
+Progress (4): 3.1/8.9 MB | 1.2/4.2 MB | 57/111 kB | 221/349 kB
+Progress (4): 3.1/8.9 MB | 1.2/4.2 MB | 57/111 kB | 221/349 kB
+Progress (4): 3.2/8.9 MB | 1.2/4.2 MB | 57/111 kB | 221/349 kB
+Progress (4): 3.2/8.9 MB | 1.2/4.2 MB | 57/111 kB | 237/349 kB
+Progress (4): 3.2/8.9 MB | 1.2/4.2 MB | 57/111 kB | 253/349 kB
+Progress (4): 3.2/8.9 MB | 1.2/4.2 MB | 57/111 kB | 270/349 kB
+Progress (4): 3.2/8.9 MB | 1.2/4.2 MB | 57/111 kB | 286/349 kB
+Progress (4): 3.2/8.9 MB | 1.2/4.2 MB | 73/111 kB | 286/349 kB
+Progress (4): 3.2/8.9 MB | 1.2/4.2 MB | 73/111 kB | 303/349 kB
+Progress (4): 3.2/8.9 MB | 1.2/4.2 MB | 73/111 kB | 319/349 kB
+Progress (4): 3.2/8.9 MB | 1.2/4.2 MB | 73/111 kB | 335/349 kB
+Progress (4): 3.2/8.9 MB | 1.2/4.2 MB | 90/111 kB | 335/349 kB
+Progress (4): 3.2/8.9 MB | 1.2/4.2 MB | 90/111 kB | 335/349 kB
+Progress (4): 3.2/8.9 MB | 1.2/4.2 MB | 90/111 kB | 335/349 kB
+Progress (4): 3.2/8.9 MB | 1.2/4.2 MB | 90/111 kB | 349 kB    
+Progress (4): 3.2/8.9 MB | 1.2/4.2 MB | 106/111 kB | 349 kB
+Progress (4): 3.2/8.9 MB | 1.3/4.2 MB | 106/111 kB | 349 kB
+Progress (4): 3.2/8.9 MB | 1.3/4.2 MB | 106/111 kB | 349 kB
+Progress (4): 3.2/8.9 MB | 1.3/4.2 MB | 106/111 kB | 349 kB
+Progress (4): 3.2/8.9 MB | 1.3/4.2 MB | 106/111 kB | 349 kB
+Progress (4): 3.2/8.9 MB | 1.3/4.2 MB | 111 kB | 349 kB    
+Progress (4): 3.2/8.9 MB | 1.3/4.2 MB | 111 kB | 349 kB
+Progress (4): 3.2/8.9 MB | 1.3/4.2 MB | 111 kB | 349 kB
+Progress (4): 3.2/8.9 MB | 1.3/4.2 MB | 111 kB | 349 kB
+Progress (4): 3.2/8.9 MB | 1.3/4.2 MB | 111 kB | 349 kB
+Progress (4): 3.3/8.9 MB | 1.3/4.2 MB | 111 kB | 349 kB
+                                                       
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar (349 kB at 177 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar (111 kB at 56 kB/s)
+Progress (2): 3.3/8.9 MB | 1.3/4.2 MB
+Progress (2): 3.3/8.9 MB | 1.3/4.2 MB
+Progress (2): 3.3/8.9 MB | 1.3/4.2 MB
+Progress (2): 3.3/8.9 MB | 1.3/4.2 MB
+Progress (2): 3.3/8.9 MB | 1.3/4.2 MB
+Progress (2): 3.3/8.9 MB | 1.3/4.2 MB
+Progress (2): 3.3/8.9 MB | 1.3/4.2 MB
+Progress (2): 3.3/8.9 MB | 1.4/4.2 MB
+Progress (2): 3.3/8.9 MB | 1.4/4.2 MB
+Progress (2): 3.4/8.9 MB | 1.4/4.2 MB
+Progress (2): 3.4/8.9 MB | 1.4/4.2 MB
+Progress (2): 3.4/8.9 MB | 1.4/4.2 MB
+Progress (2): 3.4/8.9 MB | 1.4/4.2 MB
+Progress (2): 3.4/8.9 MB | 1.4/4.2 MB
+Progress (2): 3.4/8.9 MB | 1.4/4.2 MB
+Progress (2): 3.4/8.9 MB | 1.4/4.2 MB
+Progress (2): 3.4/8.9 MB | 1.4/4.2 MB
+Progress (2): 3.4/8.9 MB | 1.4/4.2 MB
+Progress (2): 3.4/8.9 MB | 1.4/4.2 MB
+Progress (2): 3.4/8.9 MB | 1.4/4.2 MB
+Progress (2): 3.5/8.9 MB | 1.4/4.2 MB
+Progress (2): 3.5/8.9 MB | 1.4/4.2 MB
+Progress (2): 3.5/8.9 MB | 1.4/4.2 MB
+Progress (2): 3.5/8.9 MB | 1.4/4.2 MB
+Progress (2): 3.5/8.9 MB | 1.5/4.2 MB
+Progress (2): 3.5/8.9 MB | 1.5/4.2 MB
+Progress (2): 3.5/8.9 MB | 1.5/4.2 MB
+Progress (2): 3.5/8.9 MB | 1.5/4.2 MB
+Progress (2): 3.5/8.9 MB | 1.5/4.2 MB
+Progress (2): 3.5/8.9 MB | 1.5/4.2 MB
+Progress (2): 3.5/8.9 MB | 1.5/4.2 MB
+Progress (2): 3.6/8.9 MB | 1.5/4.2 MB
+Progress (2): 3.6/8.9 MB | 1.5/4.2 MB
+Progress (2): 3.6/8.9 MB | 1.5/4.2 MB
+Progress (2): 3.6/8.9 MB | 1.5/4.2 MB
+Progress (2): 3.6/8.9 MB | 1.5/4.2 MB
+Progress (2): 3.6/8.9 MB | 1.5/4.2 MB
+Progress (2): 3.6/8.9 MB | 1.5/4.2 MB
+Progress (2): 3.6/8.9 MB | 1.5/4.2 MB
+Progress (2): 3.6/8.9 MB | 1.5/4.2 MB
+Progress (2): 3.6/8.9 MB | 1.6/4.2 MB
+Progress (2): 3.7/8.9 MB | 1.6/4.2 MB
+Progress (2): 3.7/8.9 MB | 1.6/4.2 MB
+Progress (2): 3.7/8.9 MB | 1.6/4.2 MB
+Progress (2): 3.7/8.9 MB | 1.6/4.2 MB
+Progress (2): 3.7/8.9 MB | 1.6/4.2 MB
+Progress (2): 3.7/8.9 MB | 1.6/4.2 MB
+Progress (2): 3.7/8.9 MB | 1.6/4.2 MB
+Progress (2): 3.7/8.9 MB | 1.6/4.2 MB
+Progress (2): 3.7/8.9 MB | 1.6/4.2 MB
+Progress (2): 3.7/8.9 MB | 1.6/4.2 MB
+Progress (2): 3.7/8.9 MB | 1.6/4.2 MB
+Progress (2): 3.7/8.9 MB | 1.6/4.2 MB
+Progress (2): 3.7/8.9 MB | 1.6/4.2 MB
+Progress (2): 3.7/8.9 MB | 1.6/4.2 MB
+Progress (2): 3.8/8.9 MB | 1.6/4.2 MB
+Progress (2): 3.8/8.9 MB | 1.6/4.2 MB
+Progress (2): 3.8/8.9 MB | 1.7/4.2 MB
+Progress (2): 3.8/8.9 MB | 1.7/4.2 MB
+Progress (2): 3.8/8.9 MB | 1.7/4.2 MB
+Progress (2): 3.8/8.9 MB | 1.7/4.2 MB
+Progress (2): 3.8/8.9 MB | 1.7/4.2 MB
+Progress (2): 3.8/8.9 MB | 1.7/4.2 MB
+Progress (2): 3.8/8.9 MB | 1.7/4.2 MB
+Progress (2): 3.8/8.9 MB | 1.7/4.2 MB
+Progress (2): 3.8/8.9 MB | 1.7/4.2 MB
+Progress (2): 3.9/8.9 MB | 1.7/4.2 MB
+Progress (2): 3.9/8.9 MB | 1.7/4.2 MB
+Progress (2): 3.9/8.9 MB | 1.7/4.2 MB
+Progress (2): 3.9/8.9 MB | 1.7/4.2 MB
+Progress (2): 3.9/8.9 MB | 1.7/4.2 MB
+Progress (2): 3.9/8.9 MB | 1.7/4.2 MB
+Progress (2): 3.9/8.9 MB | 1.8/4.2 MB
+Progress (2): 3.9/8.9 MB | 1.8/4.2 MB
+Progress (2): 3.9/8.9 MB | 1.8/4.2 MB
+Progress (2): 3.9/8.9 MB | 1.8/4.2 MB
+Progress (2): 3.9/8.9 MB | 1.8/4.2 MB
+Progress (2): 4.0/8.9 MB | 1.8/4.2 MB
+Progress (2): 4.0/8.9 MB | 1.8/4.2 MB
+Progress (2): 4.0/8.9 MB | 1.8/4.2 MB
+Progress (2): 4.0/8.9 MB | 1.8/4.2 MB
+Progress (2): 4.0/8.9 MB | 1.8/4.2 MB
+Progress (2): 4.0/8.9 MB | 1.8/4.2 MB
+Progress (2): 4.0/8.9 MB | 1.8/4.2 MB
+Progress (2): 4.0/8.9 MB | 1.8/4.2 MB
+Progress (2): 4.0/8.9 MB | 1.8/4.2 MB
+Progress (2): 4.0/8.9 MB | 1.8/4.2 MB
+Progress (2): 4.0/8.9 MB | 1.9/4.2 MB
+Progress (2): 4.0/8.9 MB | 1.9/4.2 MB
+Progress (2): 4.1/8.9 MB | 1.9/4.2 MB
+Progress (2): 4.1/8.9 MB | 1.9/4.2 MB
+Progress (2): 4.1/8.9 MB | 1.9/4.2 MB
+Progress (2): 4.1/8.9 MB | 1.9/4.2 MB
+Progress (2): 4.1/8.9 MB | 1.9/4.2 MB
+Progress (2): 4.1/8.9 MB | 1.9/4.2 MB
+Progress (2): 4.1/8.9 MB | 1.9/4.2 MB
+Progress (2): 4.1/8.9 MB | 1.9/4.2 MB
+Progress (2): 4.1/8.9 MB | 1.9/4.2 MB
+Progress (2): 4.2/8.9 MB | 1.9/4.2 MB
+Progress (2): 4.2/8.9 MB | 1.9/4.2 MB
+Progress (2): 4.2/8.9 MB | 1.9/4.2 MB
+Progress (2): 4.2/8.9 MB | 1.9/4.2 MB
+Progress (2): 4.2/8.9 MB | 1.9/4.2 MB
+Progress (2): 4.2/8.9 MB | 1.9/4.2 MB
+Progress (2): 4.2/8.9 MB | 1.9/4.2 MB
+Progress (2): 4.2/8.9 MB | 2.0/4.2 MB
+Progress (2): 4.2/8.9 MB | 2.0/4.2 MB
+Progress (2): 4.3/8.9 MB | 2.0/4.2 MB
+Progress (2): 4.3/8.9 MB | 2.0/4.2 MB
+Progress (2): 4.3/8.9 MB | 2.0/4.2 MB
+Progress (2): 4.3/8.9 MB | 2.0/4.2 MB
+Progress (2): 4.3/8.9 MB | 2.0/4.2 MB
+Progress (2): 4.3/8.9 MB | 2.0/4.2 MB
+Progress (2): 4.3/8.9 MB | 2.0/4.2 MB
+Progress (2): 4.3/8.9 MB | 2.0/4.2 MB
+Progress (2): 4.3/8.9 MB | 2.0/4.2 MB
+Progress (2): 4.3/8.9 MB | 2.0/4.2 MB
+Progress (2): 4.3/8.9 MB | 2.0/4.2 MB
+Progress (2): 4.3/8.9 MB | 2.0/4.2 MB
+Progress (2): 4.4/8.9 MB | 2.0/4.2 MB
+Progress (2): 4.4/8.9 MB | 2.1/4.2 MB
+Progress (2): 4.4/8.9 MB | 2.1/4.2 MB
+Progress (2): 4.4/8.9 MB | 2.1/4.2 MB
+Progress (2): 4.4/8.9 MB | 2.1/4.2 MB
+Progress (2): 4.4/8.9 MB | 2.1/4.2 MB
+Progress (2): 4.4/8.9 MB | 2.1/4.2 MB
+Progress (2): 4.4/8.9 MB | 2.1/4.2 MB
+Progress (2): 4.4/8.9 MB | 2.1/4.2 MB
+Progress (2): 4.5/8.9 MB | 2.1/4.2 MB
+Progress (2): 4.5/8.9 MB | 2.1/4.2 MB
+Progress (2): 4.5/8.9 MB | 2.1/4.2 MB
+Progress (2): 4.5/8.9 MB | 2.1/4.2 MB
+Progress (2): 4.5/8.9 MB | 2.1/4.2 MB
+Progress (2): 4.5/8.9 MB | 2.1/4.2 MB
+Progress (2): 4.5/8.9 MB | 2.1/4.2 MB
+Progress (2): 4.5/8.9 MB | 2.2/4.2 MB
+Progress (2): 4.5/8.9 MB | 2.2/4.2 MB
+Progress (2): 4.5/8.9 MB | 2.2/4.2 MB
+Progress (2): 4.5/8.9 MB | 2.2/4.2 MB
+Progress (2): 4.5/8.9 MB | 2.2/4.2 MB
+Progress (2): 4.6/8.9 MB | 2.2/4.2 MB
+Progress (2): 4.6/8.9 MB | 2.2/4.2 MB
+Progress (2): 4.6/8.9 MB | 2.2/4.2 MB
+Progress (2): 4.6/8.9 MB | 2.2/4.2 MB
+Progress (2): 4.6/8.9 MB | 2.2/4.2 MB
+Progress (2): 4.6/8.9 MB | 2.2/4.2 MB
+Progress (2): 4.6/8.9 MB | 2.2/4.2 MB
+Progress (2): 4.6/8.9 MB | 2.2/4.2 MB
+Progress (2): 4.6/8.9 MB | 2.2/4.2 MB
+Progress (2): 4.6/8.9 MB | 2.2/4.2 MB
+Progress (2): 4.6/8.9 MB | 2.3/4.2 MB
+Progress (2): 4.7/8.9 MB | 2.3/4.2 MB
+Progress (2): 4.7/8.9 MB | 2.3/4.2 MB
+Progress (2): 4.7/8.9 MB | 2.3/4.2 MB
+Progress (2): 4.7/8.9 MB | 2.3/4.2 MB
+Progress (2): 4.7/8.9 MB | 2.3/4.2 MB
+Progress (2): 4.7/8.9 MB | 2.3/4.2 MB
+Progress (2): 4.7/8.9 MB | 2.3/4.2 MB
+Progress (2): 4.7/8.9 MB | 2.3/4.2 MB
+Progress (2): 4.7/8.9 MB | 2.3/4.2 MB
+Progress (2): 4.7/8.9 MB | 2.3/4.2 MB
+Progress (2): 4.8/8.9 MB | 2.3/4.2 MB
+Progress (2): 4.8/8.9 MB | 2.3/4.2 MB
+Progress (2): 4.8/8.9 MB | 2.3/4.2 MB
+Progress (2): 4.8/8.9 MB | 2.3/4.2 MB
+Progress (2): 4.8/8.9 MB | 2.3/4.2 MB
+Progress (2): 4.8/8.9 MB | 2.3/4.2 MB
+Progress (2): 4.8/8.9 MB | 2.3/4.2 MB
+Progress (2): 4.8/8.9 MB | 2.4/4.2 MB
+Progress (2): 4.8/8.9 MB | 2.4/4.2 MB
+Progress (2): 4.8/8.9 MB | 2.4/4.2 MB
+Progress (2): 4.8/8.9 MB | 2.4/4.2 MB
+Progress (2): 4.9/8.9 MB | 2.4/4.2 MB
+Progress (2): 4.9/8.9 MB | 2.4/4.2 MB
+Progress (2): 4.9/8.9 MB | 2.4/4.2 MB
+Progress (2): 4.9/8.9 MB | 2.4/4.2 MB
+Progress (2): 4.9/8.9 MB | 2.4/4.2 MB
+Progress (2): 4.9/8.9 MB | 2.4/4.2 MB
+Progress (2): 4.9/8.9 MB | 2.4/4.2 MB
+Progress (2): 4.9/8.9 MB | 2.4/4.2 MB
+Progress (2): 4.9/8.9 MB | 2.4/4.2 MB
+Progress (2): 4.9/8.9 MB | 2.4/4.2 MB
+Progress (2): 4.9/8.9 MB | 2.4/4.2 MB
+Progress (2): 4.9/8.9 MB | 2.5/4.2 MB
+Progress (2): 5.0/8.9 MB | 2.5/4.2 MB
+Progress (2): 5.0/8.9 MB | 2.5/4.2 MB
+Progress (2): 5.0/8.9 MB | 2.5/4.2 MB
+Progress (2): 5.0/8.9 MB | 2.5/4.2 MB
+Progress (2): 5.0/8.9 MB | 2.5/4.2 MB
+Progress (2): 5.0/8.9 MB | 2.5/4.2 MB
+Progress (2): 5.0/8.9 MB | 2.5/4.2 MB
+Progress (2): 5.0/8.9 MB | 2.5/4.2 MB
+Progress (2): 5.0/8.9 MB | 2.5/4.2 MB
+Progress (2): 5.0/8.9 MB | 2.5/4.2 MB
+Progress (2): 5.0/8.9 MB | 2.5/4.2 MB
+Progress (2): 5.1/8.9 MB | 2.5/4.2 MB
+Progress (2): 5.1/8.9 MB | 2.6/4.2 MB
+Progress (2): 5.1/8.9 MB | 2.6/4.2 MB
+Progress (2): 5.1/8.9 MB | 2.6/4.2 MB
+Progress (2): 5.1/8.9 MB | 2.6/4.2 MB
+Progress (2): 5.1/8.9 MB | 2.6/4.2 MB
+Progress (2): 5.1/8.9 MB | 2.6/4.2 MB
+Progress (2): 5.1/8.9 MB | 2.6/4.2 MB
+Progress (2): 5.1/8.9 MB | 2.6/4.2 MB
+Progress (2): 5.1/8.9 MB | 2.6/4.2 MB
+Progress (2): 5.1/8.9 MB | 2.6/4.2 MB
+Progress (2): 5.1/8.9 MB | 2.6/4.2 MB
+Progress (2): 5.2/8.9 MB | 2.6/4.2 MB
+Progress (2): 5.2/8.9 MB | 2.6/4.2 MB
+Progress (2): 5.2/8.9 MB | 2.6/4.2 MB
+Progress (2): 5.2/8.9 MB | 2.6/4.2 MB
+Progress (2): 5.2/8.9 MB | 2.6/4.2 MB
+Progress (2): 5.2/8.9 MB | 2.6/4.2 MB
+Progress (2): 5.2/8.9 MB | 2.6/4.2 MB
+Progress (2): 5.2/8.9 MB | 2.7/4.2 MB
+Progress (2): 5.2/8.9 MB | 2.7/4.2 MB
+Progress (2): 5.3/8.9 MB | 2.7/4.2 MB
+Progress (2): 5.3/8.9 MB | 2.7/4.2 MB
+Progress (2): 5.3/8.9 MB | 2.7/4.2 MB
+Progress (2): 5.3/8.9 MB | 2.7/4.2 MB
+Progress (2): 5.3/8.9 MB | 2.7/4.2 MB
+Progress (2): 5.3/8.9 MB | 2.7/4.2 MB
+Progress (2): 5.3/8.9 MB | 2.7/4.2 MB
+Progress (2): 5.3/8.9 MB | 2.7/4.2 MB
+Progress (2): 5.3/8.9 MB | 2.7/4.2 MB
+Progress (2): 5.3/8.9 MB | 2.7/4.2 MB
+Progress (2): 5.4/8.9 MB | 2.7/4.2 MB
+Progress (2): 5.4/8.9 MB | 2.7/4.2 MB
+Progress (2): 5.4/8.9 MB | 2.7/4.2 MB
+Progress (2): 5.4/8.9 MB | 2.8/4.2 MB
+Progress (2): 5.4/8.9 MB | 2.8/4.2 MB
+Progress (2): 5.4/8.9 MB | 2.8/4.2 MB
+Progress (2): 5.4/8.9 MB | 2.8/4.2 MB
+Progress (2): 5.4/8.9 MB | 2.8/4.2 MB
+Progress (2): 5.4/8.9 MB | 2.8/4.2 MB
+Progress (2): 5.4/8.9 MB | 2.8/4.2 MB
+Progress (2): 5.4/8.9 MB | 2.8/4.2 MB
+Progress (2): 5.4/8.9 MB | 2.8/4.2 MB
+Progress (2): 5.5/8.9 MB | 2.8/4.2 MB
+Progress (2): 5.5/8.9 MB | 2.8/4.2 MB
+Progress (2): 5.5/8.9 MB | 2.8/4.2 MB
+Progress (2): 5.5/8.9 MB | 2.8/4.2 MB
+Progress (2): 5.5/8.9 MB | 2.8/4.2 MB
+Progress (2): 5.5/8.9 MB | 2.9/4.2 MB
+Progress (2): 5.5/8.9 MB | 2.9/4.2 MB
+Progress (2): 5.5/8.9 MB | 2.9/4.2 MB
+Progress (2): 5.5/8.9 MB | 2.9/4.2 MB
+Progress (2): 5.6/8.9 MB | 2.9/4.2 MB
+Progress (2): 5.6/8.9 MB | 2.9/4.2 MB
+Progress (2): 5.6/8.9 MB | 2.9/4.2 MB
+Progress (2): 5.6/8.9 MB | 2.9/4.2 MB
+Progress (2): 5.6/8.9 MB | 2.9/4.2 MB
+Progress (2): 5.6/8.9 MB | 2.9/4.2 MB
+Progress (2): 5.6/8.9 MB | 2.9/4.2 MB
+Progress (2): 5.6/8.9 MB | 2.9/4.2 MB
+Progress (2): 5.6/8.9 MB | 2.9/4.2 MB
+Progress (2): 5.6/8.9 MB | 2.9/4.2 MB
+Progress (2): 5.6/8.9 MB | 2.9/4.2 MB
+Progress (2): 5.7/8.9 MB | 2.9/4.2 MB
+Progress (2): 5.7/8.9 MB | 2.9/4.2 MB
+Progress (2): 5.7/8.9 MB | 3.0/4.2 MB
+Progress (2): 5.7/8.9 MB | 3.0/4.2 MB
+Progress (2): 5.7/8.9 MB | 3.0/4.2 MB
+Progress (2): 5.7/8.9 MB | 3.0/4.2 MB
+Progress (2): 5.7/8.9 MB | 3.0/4.2 MB
+Progress (2): 5.7/8.9 MB | 3.0/4.2 MB
+Progress (2): 5.7/8.9 MB | 3.0/4.2 MB
+Progress (2): 5.7/8.9 MB | 3.0/4.2 MB
+Progress (2): 5.8/8.9 MB | 3.0/4.2 MB
+Progress (2): 5.8/8.9 MB | 3.0/4.2 MB
+Progress (2): 5.8/8.9 MB | 3.0/4.2 MB
+Progress (2): 5.8/8.9 MB | 3.0/4.2 MB
+Progress (2): 5.8/8.9 MB | 3.0/4.2 MB
+Progress (2): 5.8/8.9 MB | 3.0/4.2 MB
+Progress (2): 5.8/8.9 MB | 3.1/4.2 MB
+Progress (2): 5.8/8.9 MB | 3.1/4.2 MB
+Progress (2): 5.8/8.9 MB | 3.1/4.2 MB
+Progress (2): 5.8/8.9 MB | 3.1/4.2 MB
+Progress (2): 5.8/8.9 MB | 3.1/4.2 MB
+Progress (2): 5.8/8.9 MB | 3.1/4.2 MB
+Progress (2): 5.8/8.9 MB | 3.1/4.2 MB
+Progress (2): 5.9/8.9 MB | 3.1/4.2 MB
+Progress (2): 5.9/8.9 MB | 3.1/4.2 MB
+Progress (2): 5.9/8.9 MB | 3.1/4.2 MB
+Progress (2): 5.9/8.9 MB | 3.1/4.2 MB
+Progress (2): 5.9/8.9 MB | 3.1/4.2 MB
+Progress (2): 5.9/8.9 MB | 3.1/4.2 MB
+Progress (2): 5.9/8.9 MB | 3.1/4.2 MB
+Progress (2): 5.9/8.9 MB | 3.2/4.2 MB
+Progress (2): 5.9/8.9 MB | 3.2/4.2 MB
+Progress (2): 5.9/8.9 MB | 3.2/4.2 MB
+Progress (2): 6.0/8.9 MB | 3.2/4.2 MB
+Progress (2): 6.0/8.9 MB | 3.2/4.2 MB
+Progress (2): 6.0/8.9 MB | 3.2/4.2 MB
+Progress (2): 6.0/8.9 MB | 3.2/4.2 MB
+Progress (2): 6.0/8.9 MB | 3.2/4.2 MB
+Progress (2): 6.0/8.9 MB | 3.2/4.2 MB
+Progress (2): 6.0/8.9 MB | 3.2/4.2 MB
+Progress (2): 6.0/8.9 MB | 3.2/4.2 MB
+Progress (2): 6.0/8.9 MB | 3.2/4.2 MB
+Progress (2): 6.0/8.9 MB | 3.2/4.2 MB
+Progress (2): 6.1/8.9 MB | 3.2/4.2 MB
+Progress (2): 6.1/8.9 MB | 3.3/4.2 MB
+Progress (2): 6.1/8.9 MB | 3.3/4.2 MB
+Progress (2): 6.1/8.9 MB | 3.3/4.2 MB
+Progress (2): 6.1/8.9 MB | 3.3/4.2 MB
+Progress (2): 6.1/8.9 MB | 3.3/4.2 MB
+Progress (2): 6.1/8.9 MB | 3.3/4.2 MB
+Progress (2): 6.1/8.9 MB | 3.3/4.2 MB
+Progress (2): 6.1/8.9 MB | 3.3/4.2 MB
+Progress (2): 6.2/8.9 MB | 3.3/4.2 MB
+Progress (2): 6.2/8.9 MB | 3.3/4.2 MB
+Progress (2): 6.2/8.9 MB | 3.3/4.2 MB
+Progress (2): 6.2/8.9 MB | 3.3/4.2 MB
+Progress (2): 6.2/8.9 MB | 3.3/4.2 MB
+Progress (2): 6.2/8.9 MB | 3.3/4.2 MB
+Progress (2): 6.2/8.9 MB | 3.3/4.2 MB
+Progress (2): 6.2/8.9 MB | 3.3/4.2 MB
+Progress (2): 6.2/8.9 MB | 3.3/4.2 MB
+Progress (2): 6.3/8.9 MB | 3.3/4.2 MB
+Progress (2): 6.3/8.9 MB | 3.4/4.2 MB
+Progress (2): 6.3/8.9 MB | 3.4/4.2 MB
+Progress (2): 6.3/8.9 MB | 3.4/4.2 MB
+Progress (2): 6.3/8.9 MB | 3.4/4.2 MB
+Progress (2): 6.3/8.9 MB | 3.4/4.2 MB
+Progress (2): 6.3/8.9 MB | 3.4/4.2 MB
+Progress (2): 6.3/8.9 MB | 3.4/4.2 MB
+Progress (2): 6.3/8.9 MB | 3.4/4.2 MB
+Progress (2): 6.3/8.9 MB | 3.4/4.2 MB
+Progress (2): 6.4/8.9 MB | 3.4/4.2 MB
+Progress (2): 6.4/8.9 MB | 3.4/4.2 MB
+Progress (2): 6.4/8.9 MB | 3.4/4.2 MB
+Progress (2): 6.4/8.9 MB | 3.4/4.2 MB
+Progress (2): 6.4/8.9 MB | 3.5/4.2 MB
+Progress (2): 6.4/8.9 MB | 3.5/4.2 MB
+Progress (2): 6.4/8.9 MB | 3.5/4.2 MB
+Progress (2): 6.4/8.9 MB | 3.5/4.2 MB
+Progress (2): 6.4/8.9 MB | 3.5/4.2 MB
+Progress (2): 6.4/8.9 MB | 3.5/4.2 MB
+Progress (2): 6.4/8.9 MB | 3.5/4.2 MB
+Progress (2): 6.4/8.9 MB | 3.5/4.2 MB
+Progress (2): 6.5/8.9 MB | 3.5/4.2 MB
+Progress (2): 6.5/8.9 MB | 3.5/4.2 MB
+Progress (2): 6.5/8.9 MB | 3.5/4.2 MB
+Progress (2): 6.5/8.9 MB | 3.5/4.2 MB
+Progress (2): 6.5/8.9 MB | 3.5/4.2 MB
+Progress (2): 6.5/8.9 MB | 3.6/4.2 MB
+Progress (2): 6.5/8.9 MB | 3.6/4.2 MB
+Progress (2): 6.5/8.9 MB | 3.6/4.2 MB
+Progress (2): 6.5/8.9 MB | 3.6/4.2 MB
+Progress (2): 6.5/8.9 MB | 3.6/4.2 MB
+Progress (2): 6.5/8.9 MB | 3.6/4.2 MB
+Progress (2): 6.5/8.9 MB | 3.6/4.2 MB
+Progress (2): 6.6/8.9 MB | 3.6/4.2 MB
+Progress (2): 6.6/8.9 MB | 3.6/4.2 MB
+Progress (2): 6.6/8.9 MB | 3.6/4.2 MB
+Progress (2): 6.6/8.9 MB | 3.6/4.2 MB
+Progress (2): 6.6/8.9 MB | 3.6/4.2 MB
+Progress (2): 6.6/8.9 MB | 3.6/4.2 MB
+Progress (2): 6.6/8.9 MB | 3.6/4.2 MB
+Progress (2): 6.6/8.9 MB | 3.6/4.2 MB
+Progress (2): 6.6/8.9 MB | 3.6/4.2 MB
+Progress (2): 6.7/8.9 MB | 3.6/4.2 MB
+Progress (2): 6.7/8.9 MB | 3.6/4.2 MB
+Progress (2): 6.7/8.9 MB | 3.6/4.2 MB
+Progress (2): 6.7/8.9 MB | 3.7/4.2 MB
+Progress (2): 6.7/8.9 MB | 3.7/4.2 MB
+Progress (2): 6.7/8.9 MB | 3.7/4.2 MB
+Progress (2): 6.7/8.9 MB | 3.7/4.2 MB
+Progress (2): 6.7/8.9 MB | 3.7/4.2 MB
+Progress (2): 6.7/8.9 MB | 3.7/4.2 MB
+Progress (2): 6.8/8.9 MB | 3.7/4.2 MB
+Progress (2): 6.8/8.9 MB | 3.7/4.2 MB
+Progress (2): 6.8/8.9 MB | 3.7/4.2 MB
+Progress (2): 6.8/8.9 MB | 3.7/4.2 MB
+Progress (2): 6.8/8.9 MB | 3.7/4.2 MB
+Progress (2): 6.8/8.9 MB | 3.7/4.2 MB
+Progress (2): 6.8/8.9 MB | 3.7/4.2 MB
+Progress (2): 6.8/8.9 MB | 3.7/4.2 MB
+Progress (2): 6.8/8.9 MB | 3.7/4.2 MB
+Progress (2): 6.8/8.9 MB | 3.7/4.2 MB
+Progress (2): 6.8/8.9 MB | 3.7/4.2 MB
+Progress (2): 6.8/8.9 MB | 3.8/4.2 MB
+Progress (2): 6.9/8.9 MB | 3.8/4.2 MB
+Progress (2): 6.9/8.9 MB | 3.8/4.2 MB
+Progress (2): 6.9/8.9 MB | 3.8/4.2 MB
+Progress (2): 6.9/8.9 MB | 3.8/4.2 MB
+Progress (2): 6.9/8.9 MB | 3.8/4.2 MB
+Progress (2): 6.9/8.9 MB | 3.8/4.2 MB
+Progress (2): 6.9/8.9 MB | 3.8/4.2 MB
+Progress (2): 6.9/8.9 MB | 3.8/4.2 MB
+Progress (2): 6.9/8.9 MB | 3.8/4.2 MB
+Progress (2): 6.9/8.9 MB | 3.8/4.2 MB
+Progress (2): 6.9/8.9 MB | 3.9/4.2 MB
+Progress (2): 6.9/8.9 MB | 3.9/4.2 MB
+Progress (2): 7.0/8.9 MB | 3.9/4.2 MB
+Progress (2): 7.0/8.9 MB | 3.9/4.2 MB
+Progress (2): 7.0/8.9 MB | 3.9/4.2 MB
+Progress (2): 7.0/8.9 MB | 3.9/4.2 MB
+Progress (2): 7.0/8.9 MB | 3.9/4.2 MB
+Progress (2): 7.0/8.9 MB | 3.9/4.2 MB
+Progress (2): 7.0/8.9 MB | 3.9/4.2 MB
+Progress (2): 7.0/8.9 MB | 3.9/4.2 MB
+Progress (2): 7.0/8.9 MB | 3.9/4.2 MB
+Progress (2): 7.1/8.9 MB | 3.9/4.2 MB
+Progress (2): 7.1/8.9 MB | 3.9/4.2 MB
+Progress (2): 7.1/8.9 MB | 3.9/4.2 MB
+Progress (2): 7.1/8.9 MB | 3.9/4.2 MB
+Progress (2): 7.1/8.9 MB | 3.9/4.2 MB
+Progress (2): 7.1/8.9 MB | 4.0/4.2 MB
+Progress (2): 7.1/8.9 MB | 4.0/4.2 MB
+Progress (2): 7.1/8.9 MB | 4.0/4.2 MB
+Progress (2): 7.1/8.9 MB | 4.0/4.2 MB
+Progress (2): 7.1/8.9 MB | 4.0/4.2 MB
+Progress (2): 7.2/8.9 MB | 4.0/4.2 MB
+Progress (2): 7.2/8.9 MB | 4.0/4.2 MB
+Progress (2): 7.2/8.9 MB | 4.0/4.2 MB
+Progress (2): 7.2/8.9 MB | 4.0/4.2 MB
+Progress (2): 7.2/8.9 MB | 4.0/4.2 MB
+Progress (2): 7.2/8.9 MB | 4.0/4.2 MB
+Progress (2): 7.2/8.9 MB | 4.0/4.2 MB
+Progress (2): 7.2/8.9 MB | 4.0/4.2 MB
+Progress (2): 7.2/8.9 MB | 4.0/4.2 MB
+Progress (2): 7.3/8.9 MB | 4.0/4.2 MB
+Progress (2): 7.3/8.9 MB | 4.0/4.2 MB
+Progress (2): 7.3/8.9 MB | 4.0/4.2 MB
+Progress (2): 7.3/8.9 MB | 4.0/4.2 MB
+Progress (2): 7.3/8.9 MB | 4.0/4.2 MB
+Progress (2): 7.3/8.9 MB | 4.0/4.2 MB
+Progress (2): 7.3/8.9 MB | 4.1/4.2 MB
+Progress (2): 7.3/8.9 MB | 4.1/4.2 MB
+Progress (2): 7.4/8.9 MB | 4.1/4.2 MB
+Progress (2): 7.4/8.9 MB | 4.1/4.2 MB
+Progress (2): 7.4/8.9 MB | 4.1/4.2 MB
+Progress (2): 7.4/8.9 MB | 4.1/4.2 MB
+Progress (2): 7.4/8.9 MB | 4.1/4.2 MB
+Progress (2): 7.4/8.9 MB | 4.1/4.2 MB
+Progress (2): 7.4/8.9 MB | 4.1/4.2 MB
+Progress (2): 7.4/8.9 MB | 4.1/4.2 MB
+Progress (2): 7.4/8.9 MB | 4.1/4.2 MB
+Progress (2): 7.4/8.9 MB | 4.1/4.2 MB
+Progress (2): 7.5/8.9 MB | 4.1/4.2 MB
+Progress (2): 7.5/8.9 MB | 4.1/4.2 MB
+Progress (2): 7.5/8.9 MB | 4.1/4.2 MB
+Progress (2): 7.5/8.9 MB | 4.1/4.2 MB
+Progress (2): 7.5/8.9 MB | 4.1/4.2 MB
+Progress (2): 7.5/8.9 MB | 4.2/4.2 MB
+Progress (2): 7.5/8.9 MB | 4.2/4.2 MB
+Progress (2): 7.5/8.9 MB | 4.2/4.2 MB
+Progress (2): 7.5/8.9 MB | 4.2/4.2 MB
+Progress (2): 7.5/8.9 MB | 4.2/4.2 MB
+Progress (2): 7.6/8.9 MB | 4.2/4.2 MB
+Progress (2): 7.6/8.9 MB | 4.2/4.2 MB
+Progress (2): 7.6/8.9 MB | 4.2/4.2 MB
+Progress (2): 7.6/8.9 MB | 4.2/4.2 MB
+Progress (2): 7.6/8.9 MB | 4.2 MB    
+Progress (2): 7.6/8.9 MB | 4.2 MB
+Progress (2): 7.6/8.9 MB | 4.2 MB
+Progress (2): 7.6/8.9 MB | 4.2 MB
+Progress (2): 7.7/8.9 MB | 4.2 MB
+Progress (2): 7.7/8.9 MB | 4.2 MB
+Progress (2): 7.7/8.9 MB | 4.2 MB
+Progress (2): 7.7/8.9 MB | 4.2 MB
+Progress (2): 7.7/8.9 MB | 4.2 MB
+Progress (2): 7.7/8.9 MB | 4.2 MB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.12/byte-buddy-1.14.12.jar (4.2 MB at 1.5 MB/s)
+Progress (1): 7.8/8.9 MB
+Progress (1): 7.8/8.9 MB
+Progress (1): 7.8/8.9 MB
+Progress (1): 7.8/8.9 MB
+Progress (1): 7.8/8.9 MB
+Progress (1): 7.8/8.9 MB
+Progress (1): 7.8/8.9 MB
+Progress (1): 7.9/8.9 MB
+Progress (1): 7.9/8.9 MB
+Progress (1): 7.9/8.9 MB
+Progress (1): 7.9/8.9 MB
+Progress (1): 7.9/8.9 MB
+Progress (1): 7.9/8.9 MB
+Progress (1): 8.0/8.9 MB
+Progress (1): 8.0/8.9 MB
+Progress (1): 8.0/8.9 MB
+Progress (1): 8.0/8.9 MB
+Progress (1): 8.0/8.9 MB
+Progress (1): 8.0/8.9 MB
+Progress (1): 8.1/8.9 MB
+Progress (1): 8.1/8.9 MB
+Progress (1): 8.1/8.9 MB
+Progress (1): 8.1/8.9 MB
+Progress (1): 8.1/8.9 MB
+Progress (1): 8.1/8.9 MB
+Progress (1): 8.2/8.9 MB
+Progress (1): 8.2/8.9 MB
+Progress (1): 8.2/8.9 MB
+Progress (1): 8.2/8.9 MB
+Progress (1): 8.2/8.9 MB
+Progress (1): 8.2/8.9 MB
+Progress (1): 8.2/8.9 MB
+Progress (1): 8.3/8.9 MB
+Progress (1): 8.3/8.9 MB
+Progress (1): 8.3/8.9 MB
+Progress (1): 8.3/8.9 MB
+Progress (1): 8.3/8.9 MB
+Progress (1): 8.3/8.9 MB
+Progress (1): 8.3/8.9 MB
+Progress (1): 8.4/8.9 MB
+Progress (1): 8.4/8.9 MB
+Progress (1): 8.4/8.9 MB
+Progress (1): 8.4/8.9 MB
+Progress (1): 8.4/8.9 MB
+Progress (1): 8.4/8.9 MB
+Progress (1): 8.5/8.9 MB
+Progress (1): 8.5/8.9 MB
+Progress (1): 8.5/8.9 MB
+Progress (1): 8.5/8.9 MB
+Progress (1): 8.5/8.9 MB
+Progress (1): 8.5/8.9 MB
+Progress (1): 8.6/8.9 MB
+Progress (1): 8.6/8.9 MB
+Progress (1): 8.6/8.9 MB
+Progress (1): 8.6/8.9 MB
+Progress (1): 8.6/8.9 MB
+Progress (1): 8.6/8.9 MB
+Progress (1): 8.7/8.9 MB
+Progress (1): 8.7/8.9 MB
+Progress (1): 8.7/8.9 MB
+Progress (1): 8.7/8.9 MB
+Progress (1): 8.7/8.9 MB
+Progress (1): 8.7/8.9 MB
+Progress (1): 8.8/8.9 MB
+Progress (1): 8.8/8.9 MB
+Progress (1): 8.8/8.9 MB
+Progress (1): 8.8/8.9 MB
+Progress (1): 8.8/8.9 MB
+Progress (1): 8.8/8.9 MB
+Progress (1): 8.9/8.9 MB
+Progress (1): 8.9/8.9 MB
+Progress (1): 8.9/8.9 MB
+Progress (1): 8.9/8.9 MB
+Progress (1): 8.9/8.9 MB
+Progress (1): 8.9/8.9 MB
+Progress (1): 8.9 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-manager/4.18.1/selenium-manager-4.18.1.jar (8.9 MB at 2.9 MB/s)
+[INFO] 
+[INFO] --- clean:3.5.0:clean (default-clean) @ vietcombank-selenium-cucumber ---
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ vietcombank-selenium-cucumber ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.12.1:compile (default-compile) @ vietcombank-selenium-cucumber ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.14.2/plexus-compiler-api-2.14.2.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.14.2/plexus-compiler-manager-2.14.2.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.14.2/plexus-compiler-javac-2.14.2.pom
+Progress (1): 1.2 kB
+Progress (2): 1.2 kB | 1.4 kB
+                             
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.14.2/plexus-compiler-manager-2.14.2.pom (1.2 kB at 24 kB/s)
+Progress (2): 1.4 kB | 1.3 kB
+                             
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.14.2/plexus-compiler-api-2.14.2.pom (1.4 kB at 21 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.14.2/plexus-compiler-2.14.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.14.2/plexus-compiler-javac-2.14.2.pom (1.3 kB at 26 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.14.2/plexus-compilers-2.14.2.pom
+Progress (1): 1.2 kB
+Progress (1): 4.4 kB
+Progress (1): 7.2 kB
+Progress (1): 8.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.14.2/plexus-compiler-2.14.2.pom (8.1 kB at 164 kB/s)
+Progress (1): 1.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.14.2/plexus-compilers-2.14.2.pom (1.3 kB at 19 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.14.2/plexus-compiler-api-2.14.2.jar
+Progress (1): 7.7/29 kB
+Progress (1): 16/29 kB 
+Progress (1): 29 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.14.2/plexus-compiler-api-2.14.2.jar (29 kB at 506 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.14.2/plexus-compiler-manager-2.14.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.14.2/plexus-compiler-javac-2.14.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
+Progress (1): 4.2 kB
+Progress (2): 4.2 kB | 4.4 kB
+                             
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar (4.2 kB at 71 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.14.2/plexus-compiler-manager-2.14.2.jar (4.4 kB at 70 kB/s)
+Progress (1): 7.7/23 kB
+Progress (1): 7.7/23 kB
+Progress (1): 23 kB    
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.14.2/plexus-compiler-javac-2.14.2.jar (23 kB at 194 kB/s)
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 7 source files with javac [debug target 11] to target\classes
+[WARNING] location of system modules is not set in conjunction with -source 11
+  not setting the location of system modules may lead to class files that cannot run on JDK 11
+    --release 11 is recommended instead of -source 11 -target 11 because it sets the location of system modules automatically
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ vietcombank-selenium-cucumber ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.12.1:compile (default-compile) @ vietcombank-selenium-cucumber ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ vietcombank-selenium-cucumber ---
+[INFO] Copying 2 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.12.1:testCompile (default-testCompile) @ vietcombank-selenium-cucumber ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 4 source files with javac [debug target 11] to target\test-classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] location of system modules is not set in conjunction with -source 11
+  not setting the location of system modules may lead to class files that cannot run on JDK 11
+    --release 11 is recommended instead of -source 11 -target 11 because it sets the location of system modules automatically
+[INFO] 1 warning
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/GIT/tablet-automationtest/vietcombank-selenium-cucumber/src/test/java/com/vietcombank/runners/CucumberTestRunner.java:[14,38] class, interface, or enum expected
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[ERROR] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  51.811 s
+[INFO] Finished at: 2026-10-10T00:16:02+07:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.12.1:testCompile (default-testCompile) on project vietcombank-selenium-cucumber: Compilation failure
+[ERROR] /D:/GIT/tablet-automationtest/vietcombank-selenium-cucumber/src/test/java/com/vietcombank/runners/CucumberTestRunner.java:[14,38] class, interface, or enum expected
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

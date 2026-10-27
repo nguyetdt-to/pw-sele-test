@@ -1,0 +1,21 @@
+{
+  "cucumberautocomplete.steps": [
+    "steps/**/*.steps.ts"
+  ],
+  "cucumberautocomplete.syncfeatures": "features/**/*.feature",
+  "cucumberautocomplete.strictGherkinCompletion": false,
+  "cucumberautocomplete.strictGherkinValidation": false,
+  "cucumberautocomplete.formatConfOverride": {
+    "And": 0,
+    "But": 0
+  },
+
+  // For the official Cucumber VS Code extension (alexkrechik.cucumberautocomplete
+  // or cucumber.cucumber-official)
+  "cucumber.features": [
+    "features/**/*.feature"
+  ],
+  "cucumber.glue": [
+    "steps/**/*.steps.ts"
+  ]
+}
